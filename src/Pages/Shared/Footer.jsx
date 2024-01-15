@@ -2,7 +2,7 @@ import logo from "../../assets/jass4-logo.png";
 const Footer = () => {
   return (
     <footer>
-      <div className=" footer p-10 bg-neutral text-neutral-content">
+      <div className=" footer p-10 container">
         <aside>
           <div className="w-1/3">
             <img src={logo} alt="JASS4" srcSet="" />
@@ -13,7 +13,7 @@ const Footer = () => {
             Providing reliable tech since 2023
           </p>
         </aside>
-        <nav>
+        <div>
           <header className="footer-title">Social Media</header>
           <div className="grid grid-flow-col gap-4">
             <a href="#">
@@ -50,7 +50,7 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-        </nav>
+        </div>
       </div>
       <div className=" text-center py-4 space-y-2 lg:flex lg:justify-between container mx-auto px-4 md:px-0">
         <div>
