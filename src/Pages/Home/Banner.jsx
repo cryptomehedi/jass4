@@ -1,10 +1,13 @@
 import img1 from '../../assets/slider01-img.jpg'
+import bg from '../../assets/slider01-with-curved.jpg'
 
 const Banner = () => {
     return (
         <div className="z-1">
-            <div className='bg-coverImg bg-no-repeat bg-cover bg-center'>
-                <header className="px-4 md:px-16 relative grid grid-cols-1 md:grid-cols-2 mt-5 items-center md:mt-9 h-screen overflow-hidden">
+            {/* <div className='bg-coverImg bg-no-repeat bg-cover bg-center'> */}
+            <div className='card bg-base-100 shadow-xl image-full'>
+            <figure><img src={bg} alt="Shoes" /></figure>
+                <header className="px-4 card-body md:px-16 relative grid grid-cols-1 md:grid-cols-2 mt-5 items-center md:mt-9 h-screen overflow-hidden">
                     <div className="hidden md:block"><img loading='lazy' src={img1} alt=""/></div>
                     <div className="relative z-30 md:text-left p-2">
                         <div className="mb-2 text-white">

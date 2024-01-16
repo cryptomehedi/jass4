@@ -1,6 +1,5 @@
 const FeaturesCard = ({info}) => {
     const {img, name, bg} = info
-    console.log(info);
 
     return (
         <div className={` text-center `}>
