@@ -17,3 +17,24 @@ a{
 li{
     list-style-type: none;
 }
+
+.slider-bg-img{
+  background-image: url('./../src/assets/bg02.jpg');
+  height: 380px;
+}
+
+.banner-img{
+  background-image: url('./../src/assets/banner.jpg');
+}
+.banner-m-img{
+  background-image: url('./../src/assets/banner-m.jpg');
+  height: 88vh;
+}
+.swiper-slide {
+  height: 300px;
+  /* background: #6e6a6a; */
+  line-height: 300px;
+  text-align: center;
+  border-radius: 25px;
+
+}

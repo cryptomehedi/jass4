@@ -6,6 +6,7 @@ function CustomLink({ children, to, ...props }) {
 
     return (
             <Link
+                
                 // style={{ color: match ? 'green': 'black', textDecoration: match ? "underline" : "none", fontWeight: match ? 'bold' : 'normal'}}
                 className={`${match ? 'font-semibold bg-accent text-white' : 'font-medium'}`}
                 to={to}

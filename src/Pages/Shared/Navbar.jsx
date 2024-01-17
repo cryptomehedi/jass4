@@ -1,3 +1,4 @@
+// import { Link } from "react-router-dom";
 import logo from "../../assets/jass4-logo.png";
 import CustomLink from "./CustomLink";
 
@@ -14,8 +15,8 @@ const Navbar = () => {
                         </>
 
   return (
-    <div>
-            <div className="navbar bg-base-100 justify-between mx-auto">
+        <div className="">
+            <div className="navbar bg-base-100 justify-between">
                 <div className="navbar lg:navbar-start">
                     <div>
                         <div className="dropdown">
