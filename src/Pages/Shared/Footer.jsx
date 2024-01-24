@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/jass4-logo.png";
 const Footer = () => {
   return (
@@ -5,8 +6,8 @@ const Footer = () => {
       <footer className="footer p-10 bg-base-200 text-base-content">
         <nav>
           <header className="footer-title">Menu</header> 
-          <a className="link link-hover">Home</a>
-          <a className="link link-hover">About Us</a>
+          <Link to='/' className="link link-hover">Home</Link>
+          <Link to='/about' className="link link-hover">About Us</Link>
           <a className="link link-hover">Brands</a>
           <a className="link link-hover">Products</a>
           <a className="link link-hover">Services</a>

@@ -20,7 +20,7 @@ const OurBrands = () => {
             img : brand2
         },
         {
-            id : 2,
+            id : 3,
             img : brand3
         },
     ]

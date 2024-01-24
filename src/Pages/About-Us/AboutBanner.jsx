@@ -52,7 +52,7 @@ const AboutBanner = () => {
                 <div className="container mx-auto flex px-5 py-8 md:flex-row flex-col items-center">
                     <div className="lg:flex-grow text-start md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center">
                         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">ABOUT JASS4 LUBRICANT </h1>
-                        <p className=" text-xl md:text-base leading-relaxed">JASS4 Lubricant is a world recognised company in lubricant and chemical products. The company started in the year 2012. It is present in 16 countries and 5 commercial offices based in Singapore, Cambodia, China, India and Bangladesh. JASS4 Lubricant’s success is based on its state of art research and investment based growth. It exploits new promising market segment with its unique products and innovation. JASS4 Lubricant laboratories have come up with novel innovations such as:-</p>
+                        <p className=" text-xl md:text-base mt-10 md:mt-5 leading-relaxed">JASS4 Lubricant is a world recognised company in lubricant and chemical products. The company started in the year 2012. It is present in 16 countries and 5 commercial offices based in Singapore, Cambodia, China, India and Bangladesh. JASS4 Lubricant’s success is based on its state of art research and investment based growth. It exploits new promising market segment with its unique products and innovation. JASS4 Lubricant laboratories have come up with novel innovations such as:-</p>
                         <div className="my-4">
                             {
                                 productLists.map(productList => {

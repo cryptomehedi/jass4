@@ -61,7 +61,7 @@ const ProductSlide = () => {
     ]
    
   return (
-        <div className="slider-bg-img h-full border-transparent border mt-10 my-auto">
+        <div className="slider-bg-img rounded-lg h-full border-transparent border mt-10 my-auto">
             <div className="mt-10 px-4">
                 <Swiper
                     watchSlidesProgress={true}
@@ -95,14 +95,13 @@ const ProductSlide = () => {
                 >
                     {
                         products.map((product)=>{
-                            return <SwiperSlide key={product.id} className=" rounded-xl text-white">
+                            return <SwiperSlide key={product.id} className=" rounded-xl ">
                                 <div className="card card-compact w-full  bg-base-100 shadow-xl">
-                                    <figure><img className="w-56 mt-4 rounded-lg" src={moble} alt="Shoes" /></figure>
+                                    <figure><img className="w-56 shadow-2xl mt-4 rounded-lg" src={moble} alt="Shoes" /></figure>
                                     <div className="card-body">
-                                        <h2 className="card-title justify-center">{product.name}</h2>
-                                        {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+                                        <h2 className="card-title  justify-center">{product.name}</h2>
                                         <div className="card-actions justify-center md:justify-end">
-                                            <button className="btn btn-primary">Buy Now</button>
+                                            <button className="btn btn-primary">See Details</button>
                                         </div>
                                     </div>
                                 </div>
