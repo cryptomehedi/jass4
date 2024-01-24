@@ -4,6 +4,7 @@ import OurBrands from "./OurBrands";
 import ProductSlide from "./ProductSlide";
 
 const Home = () => {
+
     return (
         <div>
             <Banner />

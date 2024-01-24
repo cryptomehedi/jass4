@@ -4,7 +4,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 // import SliderCard from "./SliderCard";
 
-import moble from '../../assets/Products/mobil.jpg'
+import mobil from '../../assets/Products/mobil.jpg'
 
 const ProductSlide = () => {
 
@@ -97,7 +97,7 @@ const ProductSlide = () => {
                         products.map((product)=>{
                             return <SwiperSlide key={product.id} className=" rounded-xl ">
                                 <div className="card card-compact w-full  bg-base-100 shadow-xl">
-                                    <figure><img className="w-56 shadow-2xl mt-4 rounded-lg" src={moble} alt="Shoes" /></figure>
+                                    <figure><img className="w-56 shadow-2xl mt-4 rounded-lg" src={mobil} alt="Shoes" /></figure>
                                     <div className="card-body">
                                         <h2 className="card-title  justify-center">{product.name}</h2>
                                         <div className="card-actions justify-center md:justify-end">

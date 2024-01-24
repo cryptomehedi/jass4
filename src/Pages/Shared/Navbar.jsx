@@ -15,7 +15,7 @@ const Navbar = () => {
                         </>
 
   return (
-        <div className="container mx-auto z-1">
+        <div className="container mx-auto relative z-50">
             <div className="navbar bg-base-100 justify-between">
                 <div className="navbar lg:navbar-start">
                     <div>

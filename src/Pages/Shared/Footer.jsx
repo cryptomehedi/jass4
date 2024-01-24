@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/jass4-logo.png";
+import img from '../../assets/save.png'
 const Footer = () => {
   return (
     <div>
@@ -40,7 +41,7 @@ const Footer = () => {
           <p>
             JASS4 Ltd.
             <br />
-            Providing reliable tech since 2023
+            <img className="w-32 md:w-40" src={img} alt="" />
           </p>
         </aside> 
         <nav className="md:place-self-center md:justify-self-end">
