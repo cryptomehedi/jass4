@@ -20,7 +20,7 @@ li{
 
 .slider-bg-img{
   background-image: url('./../src/assets/bg02.jpg');
-  height: 380px;
+  height: 440px;
 }
 
 .banner-img{
@@ -31,7 +31,7 @@ li{
   height: 88vh;
 }
 .swiper-slide {
-  height: 300px;
+  height: 00px;
   /* background: #6e6a6a; */
   line-height: 300px;
   text-align: center;

@@ -9,6 +9,21 @@ import brand3 from './../../assets/brand-2.png'
 
 
 const OurBrands = () => {
+
+    const brands = [
+        {
+            id : 1,
+            img : brand1
+        },
+        {
+            id : 2,
+            img : brand2
+        },
+        {
+            id : 2,
+            img : brand3
+        },
+    ]
     return (
 
         <div>
@@ -40,17 +55,22 @@ const OurBrands = () => {
                             768: {
                             slidesPerView: 2,
                             spaceBetween: 40,
+                            centeredSlides:true
                             },
                             1024: {
                             slidesPerView: 3,
                             spaceBetween: 50,
+                            centeredSlides:false
                             },
                         }}
                         modules={[ Autoplay, Pagination, Navigation]}
                     >
-                        <SwiperSlide><img src={brand1} alt="" /></SwiperSlide>
-                        <SwiperSlide><img src={brand2} alt="" /></SwiperSlide>
-                        <SwiperSlide><img src={brand3} alt="" /></SwiperSlide>
+                        {
+                            brands.map(brand =>{
+                                return <SwiperSlide key={brand.id}><img src={brand.img} alt="" /></SwiperSlide>
+                            })
+                        }
+                        
                     </Swiper>
                 
                 </div>

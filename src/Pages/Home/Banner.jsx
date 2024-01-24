@@ -7,7 +7,7 @@ const Banner = () => {
                 <header className="px-4 md:px-16 relative grid grid-cols-1 md:grid-cols-2 mt-5 items-center md:mt-9 h-screen overflow-hidden">
                     <div className="hidden md:block"><img className='rounded-2xl' loading='lazy' src={img1} alt=""/></div>
                     <div className="relative z-30 md:text-left p-2">
-                        <div className="mb-2 text-white">
+                        <div className="mb-2 -my-20 md:my-0 text-white">
                             <p className="text-4xl md:text-5xl">Unmatched Experience </p> 
                             <p className='py-3 text-2xl md:text-3xl font-medium'>And</p>
                             <p className='text-4xl md:text-5xl'>Expertise in Lubricants Industry </p>

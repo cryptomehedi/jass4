@@ -8,14 +8,14 @@ const Navbar = () => {
 
     const menuItems =   <>
                             <li><CustomLink to="/">Home</CustomLink></li>
-                            <li><CustomLink to="/about">About</CustomLink></li>
                             <li><CustomLink to="/products">Products</CustomLink></li>
+                            <li><CustomLink to="/about">About</CustomLink></li>
                             <li><CustomLink to="/reviews">Reviews</CustomLink></li>
                             <li><CustomLink to="/contact-us">Contact Us</CustomLink></li>
                         </>
 
   return (
-        <div className="">
+        <div className="container mx-auto z-1">
             <div className="navbar bg-base-100 justify-between">
                 <div className="navbar lg:navbar-start">
                     <div>
