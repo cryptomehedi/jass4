@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "img" : "Products/mobil.jpg",
+        "name" : "Semi Synthetic Engine Oil",
+        "price" : 500
+    },
+    {
+        "id": 2,
+        "img" : "Products/mobil.jpg",
+        "name" : "Compressor Oils (P) Series",
+        "price" : 500
+    },
+    {
+        "id": 3,
+        "img" : "Products/mobil.jpg",
+        "name" : "Compressor Oils (r) Series",
+        "price" : 500
+    },
+    {
+        "id": 4,
+        "img" : "Products/mobil.jpg",
+        "name" : "Industrial Gear Oil",
+        "price" : 500
+    },
+    {
+        "id": 5,
+        "img" : "Products/mobil.jpg",
+        "name" : "Semi Synthetic Engine Oil",
+        "price" : 500
+    },
+    {
+        "id": 6,
+        "img" : "Products/mobil.jpg",
+        "name" : "Slideway Oil Series",
+        "price" : 500
+    },
+    {
+        "id": 7,
+        "img" : "Products/mobil.jpg",
+        "name" : "Turbine Oil",
+        "price" : 500
+    }
+    
+]

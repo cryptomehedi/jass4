@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import img1 from '../../assets/slider01-img.jpg'
 
 const Banner = () => {
@@ -13,7 +14,7 @@ const Banner = () => {
                                 <p className='py-3 text-2xl md:text-3xl font-medium'>And</p>
                                 <p className='text-4xl md:text-5xl'>Expertise in Lubricants Industry </p>
                             </div>
-                            <button  className='bg-[#1F2A7D] text-white font-semibold p-2 px-3 md:px-5 rounded-full hover:font-bold md:mt-4 hover:bg-orange-500 duration-500 text-center'>Learn More</button>
+                            <Link to='/about'><button  className='bg-[#1F2A7D] text-white font-semibold p-2 px-3 md:px-5 rounded-full hover:font-bold md:mt-4 hover:bg-orange-500 duration-500 text-center'>Learn More</button></Link>
                         </div>
                         
                     </header>
@@ -25,7 +26,7 @@ const Banner = () => {
                     </div>
                     <div className=' mt-6 md:mt-14 px-4 md:px-16'>
                         <p>JASS4 Lubricant is a world recognized company in lubricant and chemical products. The company started in the year 2023. It is present in 16 countries and 5 commercial offices based in Singapore, Cambodia, China, India and Bangladesh. JASS4 Lubricant’s success is based on its state of art research and investment based growth. It exploits new promising market segment with its unique products and innovation</p>
-                        <button className='bg-[#1F2A7D] text-white font-semibold mt-3 p-2 px-3 md:px-5 rounded-full hover:font-bold md:mt-4 hover:bg-orange-500 duration-500 text-center'>Learn More</button>
+                        <div className='text-center md:text-start'><Link to='about'><button className='bg-[#1F2A7D] text-white font-semibold mt-3 p-2 px-3 md:px-5 rounded-full hover:font-bold md:mt-4 hover:bg-orange-500 duration-500 text-center'>Learn More</button></Link></div>
                     </div>
                 </div>
             </div>

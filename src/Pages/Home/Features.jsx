@@ -1,50 +1,12 @@
-import portImg from "./../../assets/icon-port-operations.png";
-import marineImg from "./../../assets/icon-marine.png";
-import millImg from "./../../assets/icon-steel-mill.png";
-import commercialImg from "./../../assets/icon-commercial-vehicles.png";
-import transformersImg from "./../../assets/icon-transformers.png";
-import oilImg from "./../../assets/icon-oil-rigs.png";
-import portBGg from "./../../assets/industry-port-operation-bg.jpg";
-import marineBg from "./../../assets/industry-marine-bg.jpg";
-import millBg from "./../../assets/industry-steel-mill-bg.jpg";
-import commercialBg from "./../../assets/industry-commercial-vehicles-bg.jpg";
-import transformersBg from "./../../assets/industry-transformers-bg.jpg";
-import oilBg from "./../../assets/industry-oil-rigs-bg.jpg";
+
 import FeaturesCard from "./FeaturesCard";
+import { Link } from "react-router-dom";
+import featuresData from '../../Data/Features.json'
+import { useState } from "react";
 
 const Features = () => {
-  const features = [
-    {
-      name: "PORT OPERATIONS",
-      img: portImg,
-      bg: portBGg,
-    },
-    {
-      name: "MARINE",
-      img: marineImg,
-      bg: marineBg,
-    },
-    {
-      name: "STEEL MILL",
-      img: millImg,
-      bg: millBg,
-    },
-    {
-      name: "COMMERCIAL VEHICLES",
-      img: commercialImg,
-      bg: commercialBg,
-    },
-    {
-      name: "TRANSFORMERS",
-      img: transformersImg,
-      bg: transformersBg,
-    },
-    {
-      name: "OIL RIGS",
-      img: oilImg,
-      bg: oilBg,
-    },
-  ];
+  // eslint-disable-next-line
+  const [features, setFeatures] = useState(featuresData)
 
   return (
     <div className="container mx-auto">
@@ -55,9 +17,7 @@ const Features = () => {
             automotive, industrial, mining, construction, agrochemicals,
             agricultural, Marine and Port Operation.
           </p>
-          <div className="text-center md:text-left"><button className="bg-[#1F2A7D] text-white font-semibold mt-3 p-2 px-3 md:px-5 rounded-full hover:font-bold md:mt-4 hover:bg-orange-500 duration-500 text-center">
-            Learn More
-          </button></div>
+          <div className='text-center md:text-start'><Link to='about'><button className='bg-[#1F2A7D] text-white font-semibold mt-3 p-2 px-3 md:px-5 rounded-full hover:font-bold md:mt-4 hover:bg-orange-500 duration-500 text-center'>Learn More</button></Link></div>
         </div>
         <div className="text-center  flex-1">
           <p className="text-5xl ">INDUSTRIES</p>

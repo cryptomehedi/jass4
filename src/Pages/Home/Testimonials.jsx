@@ -1,23 +1,31 @@
+import { useState } from "react";
+import testimonialsData from "../../Data/Testimonials.json";
+import quote from "../../assets/quote.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import productsData from "../../Data/Products.json";
-import { useState } from "react";
-import ProductSlideCard from "./ProductSlideCard";
+import TestimonialSlideCard from "./testimonialSlideCard";
 
-const ProductSlide = () => {
+const Testimonials = () => {
   // eslint-disable-next-line
-  const [products, setProducts] = useState(productsData);
+  const [testimonials, setTestimonials] = useState(testimonialsData);
 
   return (
-    <div className="slider-bg-img rounded-lg h-full border-transparent border mt-10 my-auto">
-      <div className="mt-10 px-4">
+    <div className="mt-14 px-3 md:px-16">
+      <div className="flex justify-between items-center">
+        <div>
+          <h2 className="text-xl text-primary">Testimonial</h2>
+          <h2 className="mt-2 text-3xl">What Our Patients Says</h2>
+        </div>
+        <img className="w-20 md:w-48" src={quote} alt="" />
+      </div>
+      <div className="mt-12">
         <Swiper
           watchSlidesProgress={true}
           slidesPerView={3}
           className="mySwiper w-full"
-          navigation={true}
+        //   navigation={true}
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
@@ -32,23 +40,26 @@ const ProductSlide = () => {
             200: {
               slidesPerView: 1,
               spaceBetween: 20,
+              centeredSlides:true
             },
             768: {
               slidesPerView: 2,
               spaceBetween: 40,
+              centeredSlides:true
             },
             1024: {
               slidesPerView: 3,
               spaceBetween: 50,
+              centeredSlides:false
             },
           }}
           modules={[Autoplay, Pagination, Navigation]}
         >
-          {products.map((product) => {
+          {testimonials.map((testimonial) => {
             return (
-              <SwiperSlide
-                key={product.id}
-              ><ProductSlideCard info={product}/></SwiperSlide>
+              <SwiperSlide key={testimonial.id} className="rounded-xl ">
+                <TestimonialSlideCard key={testimonial.id} info={testimonial} />
+              </SwiperSlide>
             );
           })}
         </Swiper>
@@ -57,4 +68,4 @@ const ProductSlide = () => {
   );
 };
 
-export default ProductSlide;
+export default Testimonials;

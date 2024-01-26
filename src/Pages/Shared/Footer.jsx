@@ -8,9 +8,9 @@ const Footer = () => {
         <nav>
           <header className="footer-title">Menu</header> 
           <Link to='/' className="link link-hover">Home</Link>
-          <Link to='/about' className="link link-hover">About Us</Link>
+          <Link to='about' className="link link-hover">About Us</Link>
           <a className="link link-hover">Brands</a>
-          <a className="link link-hover">Products</a>
+          <Link to='products' className="link link-hover">Products</Link>
           <a className="link link-hover">Services</a>
           <a className="link link-hover">Contact Us</a>
         </nav> 
