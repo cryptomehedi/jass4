@@ -1,4 +1,4 @@
-import mobil from '../../assets/Products/mobil.jpg'
+import mobil from '/Products/mobil.jpg'
 
 
 const ProductDetails = () => {

@@ -14,7 +14,7 @@ const ProductSlideCard = ({ info }) => {
       <div className="card-body">
         <h2 className="card-title  justify-center">{name}</h2>
         <div className="card-actions justify-center md:justify-end">
-          <Link to="/products/product" className="btn btn-primary">
+          <Link to="/products/product" className="btn bg-[#1F2A7D] hover:bg-orange-500">
             See Details
           </Link>
         </div>
