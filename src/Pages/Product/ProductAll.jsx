@@ -17,9 +17,11 @@ const ProductAll = () => {
                                             <figure><img className='w-52 rounded-xl ' src={product.img} alt="Shoes" /></figure>
                                             <div className="card-body ">
                                                 <div className='flex justify-center' ><h2 className="card-title">{product.name}</h2></div>
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, sit.</p>
+                                                <p className='text-2xl' >{product.power}</p>
                                                 <div className="card-actions justify-end">
-                                                    <div>Price : {product.price}<span className='text-lg'>৳</span></div>
+                                                    {
+                                                        typeof(product.Weight) === "number" ? <div className='text-lg' >Weight : {product.Weight}L</div> : <div className='text-lg' >Weight : {product.Weight}</div>
+                                                    }
                                                 </div>
                                             </div>
                                         </Link>

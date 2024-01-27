@@ -39,7 +39,7 @@ const Footer = () => {
             <img src={logo} alt="JASS4" srcSet="" />
           </div>
           <p>
-            JASS4 Ltd.
+            JASS4 Brothers Petroleum Ltd. Since 2012
             <br />
             <img className="w-32 md:w-40" src={img} alt="" />
           </p>
