@@ -1,0 +1,24 @@
+[
+    {
+        "id" : 1,
+        "headings" : "TOLL BLENDING" ,
+        "description" : "Trusting an outside company to manage your simple or complex blending needs can be a difficult move to make. Trade recipes need to be protected and the finished product needs to arrive in-spec, on-time, and contamination free.",
+        "description2" : "We JASS4 Lubricants understand the potential risks involved with toll blending and we offer a wide range of services to help simplify the process.",
+        "description3" : "Take advantage of JASS4 Lubricants well-equipped on-site laboratory, experienced technicians, and broad toll blending experience.",
+        "description4" : "JASS4 Lubricants facility is capable of handling a full spectrum of toll blending needs from engine oil , motorbike oil, industrial gear oil , automatic transmission fluids, brake and clutch fluids, radiator coolant and simple industrial cleaners."
+    },
+    {
+        "id" : 2,
+        "head" : "BENEFITS OF TOLL BLENDING",
+        "description" : "Toll blending allows you to immerse your inventory and packaging systems with our facility and processes in order to develop a seamless working supply-and-demand based relationship. If your blending capabilities are reaching a maximum capacity, we can help handle the overflow. That means you’ll still meet your deadlines without having to expand your facility or turn down additional projects.",
+        "description2" : "Simply supply the raw materials and packaging and we’ll do the rest. We’re readily available to handle your largest bench, pilot or commercial projects."
+    },
+    {
+        "id" : 3,
+        "head" : "INDUSTRY PARTNERSHIP",
+        "description" : "Tap into the vast knowledge of our experienced team, in-house lab, and extensive supply network as we assist in developing the perfect formulation for your product.",
+        "description2" : "We’ll help keep your costs down and your specification requirements accurate all while keeping your plans completely disclosed. In many cases we can speed up your product development stages by using one of our pre-existing formulas as a starting point for your specific toll blending needs.",
+        "description3" : "Custom and toll blending is offered from simple blends to more complicated reaction blends. We have two water based blending tanks and 6 oil based blending vessels. Blend size can range anywhere from 1,000 liters to 10,000 liters.",
+        "description4" : "Our state-of-the art laboratory, backed by industry leading chemists and support technicians incorporates the latest in technology for fast, efficient service to our customers."
+    }
+]

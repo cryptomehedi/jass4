@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 1,
+        "headings" : "DISTRIBUTORSHIP",
+        "description" : "A distributor is one who buys products from a manufacturer, warehouses them, then sells them to retailers or to end-use customers. A distributorship agreement is a contract made between an individual or entity (the “distributor”) and the manufacturer, setting out the terms under which the distributor may sell the products. Products are purchased from the manufacturer at a low cost, then sold to retailers or consumers at a higher cost to cover the distributor’s costs and earn a profit."
+    },
+    {
+        "id" : 2,
+        "head" : "DEFINITION OF DISTRIBUTORSHIP",
+        "description" : "A wholesaler with exclusive rights to market and sell the products of a manufacturer or supplier, usually within a specified territory."
+    },
+    {
+        "id" : 3,
+        "head" : "WHAT IS A DISTRIBUTOR",
+        "description" : "The distributor is considered an independent selling agent. This means that the distributor has permission to sell the product as specified in the contract, but is not entitled to use the trade name as part of its business. The distributorship agreement may also specify that the distributor is bound to sell the supplier’s products exclusively, meaning it cannot sell similar products from another supplier. Large-scale distributors are often referred to as “wholesalers.”"
+    },
+    {
+        "id" : 4,
+        "head" : "EXCLUSIVE DISTRIBUTORSHIP",
+        "description" : "A distributor that is granted exclusive distribution rights is guaranteed to be the only dealer or retailer of a specific product in a specified area, or to be the only dealer or retailer to supply the product to a specified group of people. Contracts for exclusive distribution are most commonly seen in high-end products that require the sales staff to have some degree of training. An exclusive distributorship agreement gives the manufacturer or supplier greater control over how its product is sold. Additionally, exclusive distribution provides some protection to the distributor against other individuals or entities who might attempt to sell the same product at a more competitive price."
+    },
+    {
+        "id" : 5,
+        "head" : "RESPONSIBILITIES OF EACH PARTY IN A DISTRIBUTORSHIP",
+        "description" : "Most commonly, the manufacturer does not dictate how the product purchased should be distributed. However, occasions arise where the manufacturer will offer an agent training in order to use the product. The exact conditions and responsibilities of each party are outlined in the distributorship agreement."
+    },
+    {
+        "id" : 6,
+        "head" : "DISTRIBUTORSHIP AND LIABILITY",
+        "description" : "Even though the distributor is not responsible for manufacturing a product, it can be held liable in the event of defects. Under strict product liability laws, the seller, distributor, and manufacturer of a defective product can be held liable if a person is injured due to the defect. Though manufacturers are typically most responsible since they created the product, the liability can also fall to those that distribute or sell the defective items."
+    }
+]

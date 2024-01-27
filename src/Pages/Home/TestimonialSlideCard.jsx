@@ -4,7 +4,7 @@ const TestimonialSlideCard = ({info}) => {
 
     return (
         <div className='px-9 p-5 shadow-2xl rounded-lg'>
-                        <div className="w-full">
+                        <div className="w-full ">
                             <p className="leading-relaxed mb-3">{description}</p>
                         </div>
                         <div className='flex justify-start items-center mt-9'>

@@ -1,42 +1,59 @@
-import {
-    createBrowserRouter,
-} from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
 import NotFound from "../Pages/Shared/NotFound";
 import ProductHome from "../Pages/Product/ProductHome";
 import AboutUs from "../Pages/About-Us/AboutUs";
 import ProductDetails from "../Pages/Product/ProductDetails";
-
-
+import Services from "../Pages/Services/Services";
 
 export const router = createBrowserRouter([
-    
-    {
-        path: "/",
-        element: <Main/>,
+  {
+    path: "/",
+    element: <Main />,
+    errorElement : <NotFound/>,
+    children: [
+      {
+        index: true,
+        element: <Home />,
+      },
+      {
+        path: "products",
+        errorElement : <ProductHome/>,
         children: [
             {
-                path: "/", element: <Home/>
+                index : true,
+                element : <ProductHome/>
             },
             {
-                path: "products", element: <ProductHome/>,
-                // children : [
-                //     {
-                //         path : '/product', element: <ProductDetails/>  
-                //     },
-                // ]
+                path : "product/:id",
+                errorElement : <ProductHome/>,
+                element : <ProductDetails/>,
             },
-            {
-                path: "about", element: <AboutUs/>
-            },
-            {
-                path: "*", element: <NotFound/>
-            },
-            {
-                path : "products/product",  element: <ProductDetails/>
-            },
+            // {
+            //     path: 'product',
+            //     children: [
+            //         {
+            //             path : ':id',
+            //             element : <ProductDetails/>,
+            //         }
+            //     ]
+            // }
         ]
-    },
+      },
+      {
+        path: "about",
+        element: <AboutUs />,
+      },
+      {
+        path: "services",
+        element: <Services />,
+      },
     
+    //   {
+    //     path: "product/:id",
+    //     element: <ProductDetails />,
+    //   },
+    ],
+  },
 ]);

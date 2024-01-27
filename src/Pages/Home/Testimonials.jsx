@@ -20,49 +20,51 @@ const Testimonials = () => {
         </div>
         <img className="w-20 md:w-48" src={quote} alt="" />
       </div>
-      <div className="mt-12">
-        <Swiper
-          watchSlidesProgress={true}
-          slidesPerView={3}
-          className="mySwiper w-full"
-        //   navigation={true}
-          spaceBetween={30}
-          centeredSlides={true}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          breakpoints={{
-            200: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-              centeredSlides:true
-            },
-            768: {
-              slidesPerView: 2,
-              spaceBetween: 40,
-              centeredSlides:true
-            },
-            1024: {
-              slidesPerView: 3,
-              spaceBetween: 50,
-              centeredSlides:false
-            },
-          }}
-          modules={[Autoplay, Pagination, Navigation]}
-        >
-          {testimonials.map((testimonial) => {
-            return (
-              <SwiperSlide key={testimonial.id} className="rounded-xl ">
-                <TestimonialSlideCard key={testimonial.id} info={testimonial} />
-              </SwiperSlide>
-            );
-          })}
-        </Swiper>
+      <div>
+        <div className="mt-12 h-full">
+          <Swiper
+            watchSlidesProgress={true}
+            slidesPerView={3}
+            className="mySwiper w-full"
+          //   navigation={true}
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: true,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            breakpoints={{
+              200: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                centeredSlides:true
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+                centeredSlides:true
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 50,
+                centeredSlides:false
+              },
+            }}
+            modules={[Autoplay, Pagination, Navigation]}
+          >
+            {testimonials.map((testimonial) => {
+              return (
+                <SwiperSlide key={testimonial.id} className="rounded-xl ">
+                  <TestimonialSlideCard key={testimonial.id} info={testimonial} />
+                </SwiperSlide>
+              );
+            })}
+          </Swiper>
+        </div>
       </div>
     </div>
   );

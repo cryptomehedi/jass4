@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const ProductSlideCard = ({ info }) => {
-  const { img, name } = info;
+  const { img, name ,id } = info;
   return (
     <div className="card card-compact w-full  bg-base-100 shadow-xl">
       <figure>
@@ -14,7 +14,7 @@ const ProductSlideCard = ({ info }) => {
       <div className="card-body">
         <h2 className="card-title  justify-center">{name}</h2>
         <div className="card-actions justify-center md:justify-end">
-          <Link to="/products/product" className="btn bg-[#1F2A7D] hover:bg-orange-500">
+          <Link to={`/products/product/${id}`} className="btn text-white bg-[#1F2A7D] hover:bg-orange-500">
             See Details
           </Link>
         </div>

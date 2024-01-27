@@ -1,5 +1,6 @@
+import img from '../../assets/About-Img/banner01.png'
 
-const Cover = ({title, img}) => {
+const Cover = ({title}) => {
   return (
     <div>
       <div

@@ -9,8 +9,8 @@ const Navbar = () => {
     const menuItems =   <>
                             <li><CustomLink to="/">Home</CustomLink></li>
                             <li><CustomLink to="/products">Products</CustomLink></li>
+                            <li><CustomLink to="/services">Services</CustomLink></li>
                             <li><CustomLink to="/about">About</CustomLink></li>
-                            <li><CustomLink to="/reviews">Reviews</CustomLink></li>
                             <li><CustomLink to="/contact-us">Contact Us</CustomLink></li>
                         </>
 

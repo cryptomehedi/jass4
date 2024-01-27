@@ -3,7 +3,7 @@ import home from "../../assets/home.svg";
 
 const NotFound = () => {
   return (
-    <main className="grid min-h-full place-items-center bg-white px-6 py-24 sm:py-32 lg:px-8">
+    <main className="grid min-h-screen place-items-center bg-white px-6 py-24 sm:py-32 lg:px-8">
       <div className="text-center">
         <p className="text-7xl font-semibold text-orange-500">
           4<span className="text-blue-700">0</span>4
