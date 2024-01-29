@@ -1,7 +1,7 @@
 
 const ContactForm = () => {
     return (
-        <div>
+        <div className="" >
 
             <div className="min-h-screen w-full md:py-6 flex flex-col justify-center py-10">
                 <div className="relative py-3 sm:max-w-xl sm:mx-auto">

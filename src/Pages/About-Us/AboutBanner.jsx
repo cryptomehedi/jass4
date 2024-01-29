@@ -1,4 +1,4 @@
-import aboutImg from "../../assets/About-Img/about-img01.jpg"
+import aboutImg from "../../assets/About-Img/JASS4-Lubricant-about-img01.jpg"
 
 const AboutBanner = () => {
 
@@ -63,7 +63,7 @@ const AboutBanner = () => {
                         <p className=" text-lg md:text-base leading-relaxed">JASS4 Lubricant’s mission is to help automotive industries, commercial vehicles industries, motorbike industries, Transmission industries, Marine industries and industrial around the globe to realize the importance of suitable lubricants to be used for their equipment’s. This gives the company its value and meaning as a leader in the lubricant industry.</p>
                     </div>
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                        <img alt="hero" src={aboutImg} className="object-cover rounded-2xl object-center"/>
+                        <img alt="JASS4 Lubricant" src={aboutImg} className="object-cover rounded-2xl object-center"/>
                     </div>
                 </div>
             </section>

@@ -25,7 +25,7 @@ const OurBrands = () => {
                         Our <span className="font-semibold">Brands</span>
                     </div>
                 <div className="p-11 md:px-60">
-                <img src={brand1} alt="" />
+                <img src={brand1} alt="JASS4 Lubricant" />
                     {/* <Swiper
                         watchSlidesProgress={true}
                         slidesPerView={1}

@@ -27,12 +27,11 @@ li{
   background-image: url('./../src/assets/banner.jpg');
 }
 .banner-m-img{
-  background-image: url('./../src/assets/banner-m.jpg');
-  height: 90vh;
+  background-image: url('./../src/assets/JASS4-Lubricant-banner-m.jpg');
+  height: 95vh;
 }
 .swiper-slide {
   height: 00px;
-  /* background: #6e6a6a; */
   line-height: 300px;
   text-align: center;
   border-radius: 25px;

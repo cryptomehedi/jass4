@@ -2,19 +2,25 @@
     {
         "id" : 1,
         "img": "man.png",
-        "name": "Winson Herry",
-        "description": "It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content,"
+        "name": "Tamim Iqbal",
+        "description": "Have benefited from using this product and very good performance"
     },
     {
         "id":2,
         "img": "man.png",
-        "name": "Winson Herry",
-        "description": "It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content,"
+        "name": "Monin Khan",
+        "description": "Very Good engine oil for car"
     },
     {
         "id":3,
         "img": "man.png",
-        "name": "Winson Herry",
-        "description": "It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content,"
+        "name": "Avi Hossain",
+        "description": "Honda CB Hornet 160R Pros 1. No vibration even at 105 kmph. 2. Better engine coolant, u cant feel engine heat at all. 3. Power loss issue reduced. 4. Unchanged engine sound after 80 km ride without break. 5. Better throttle response. Cons Very poor throttle response at cold start. But this issue solved after 15 min of riding. Overall impression : Recommended"
+    },
+    {
+        "id":4,
+        "img": "man.png",
+        "name": "Azizul Islam",
+        "description": "Product is 100% authentic. I checked it by barcode scanner and it was authentic. Recommended.. 👌👌"
     }
 ]

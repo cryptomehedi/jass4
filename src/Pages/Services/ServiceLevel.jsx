@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import levelData from '../../Data/privateLevel.json'
-import img from '/services/services-private-label.jpg'
+import img from '/services/JASS4-Lubricant-services-private-label.jpg'
 
 
 const ServiceLevel = () => {
@@ -10,7 +10,7 @@ const ServiceLevel = () => {
         <section className=" body-font">
             <div className="container flex-col-reverse mx-auto flex px-5 py-24 md:flex-row items-center">
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                    <img className="object-cover object-center rounded" alt="hero" src={img} />
+                    <img className="object-cover object-center rounded" alt="JASS4 Lubricant" src={img} />
                 </div>
                 <div className="lg:flex-grow flex-col md:w-1/2 lg:pl-24 md:pl-16 flex md:flex-col md:items-start md:text-left items-center text-center">
                     {

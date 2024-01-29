@@ -58,7 +58,7 @@ const Testimonials = () => {
           >
             {testimonials.map((testimonial) => {
               return (
-                <SwiperSlide key={testimonial.id} className="rounded-xl ">
+                <SwiperSlide key={testimonial.id} className="rounded-xl p-4">
                   <TestimonialSlideCard key={testimonial.id} info={testimonial} />
                 </SwiperSlide>
               );

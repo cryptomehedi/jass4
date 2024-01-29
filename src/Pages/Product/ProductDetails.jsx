@@ -13,7 +13,7 @@ const ProductDetails = () => {
         <div className="container w-full px-5 py-24 mx-auto">
           <div className="lg:w-4/5 w-5/6 mx-auto flex flex-wrap">
             <img
-              alt={name}
+              alt={`${name} | JASS4 Lubricant`}
               className="lg:w-1/2 w-full lg:h-auto md:h-40 object-cover object-center rounded-2xl"
               src={img}
             />
@@ -29,6 +29,12 @@ const ProductDetails = () => {
               </h2>
               <div className='text-lg' > {power}</div>
               <h2 className="text-base title-font uppercase mt-6 tracking-widest">
+                Product Weight
+              </h2>
+              <div> 
+                {typeof(Weight) === "number" ? <div className='text-lg' > {Weight}L</div> : <div className='text-lg' >{product.Weight}</div>}
+              </div>
+              <h2 className="text-base title-font uppercase mt-6 tracking-widest">
                 Product Description
               </h2>
               {description ? <p className="text-xs leading-relaxed">{description}</p> : <p className="text-sm leading-relaxed">
@@ -39,11 +45,6 @@ const ProductDetails = () => {
                   listicle pour-over, neutra jean shorts keytar banjo tattooed
                   umami cardigan.
                 </p>}
-              <h2 className="text-base title-font uppercase mt-6 tracking-widest">
-                Product Weight
-              </h2>
-              <div> {typeof(Weight) === "number" ? <div className='text-lg' > {Weight}L</div> : <div className='text-lg' >{product.Weight}</div>}
-              </div>
             </div>
           </div>
         </div>

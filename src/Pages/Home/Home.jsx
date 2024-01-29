@@ -8,7 +8,7 @@ import Testimonials from "./Testimonials";
 const Home = () => {
   return (
     <div>
-      <PageTitle text={"Home"}/>
+      <PageTitle text="Home"/>
       <Banner />
       <div className="container mx-auto">
         <ProductSlide />

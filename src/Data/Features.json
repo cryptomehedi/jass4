@@ -1,32 +1,32 @@
 [
     {
       "name": "PORT OPERATIONS",
-      "img": "Features-Img/icon-port-operations.png",
-      "bg": "Features-Img/industry-port-operation-bg.jpg"
+      "img": "Features-Img/JASS4-Lubricant-icon-port-operations.png",
+      "bg": "Features-Img/JASS4-Lubricant-industry-port-operation-bg.jpg"
     },
     {
       "name": "MARINE",
-      "img": "Features-Img/icon-marine.png",
-      "bg": "Features-Img/industry-marine-bg.jpg"
+      "img": "Features-Img/JASS4-Lubricant-icon-marine.png",
+      "bg": "Features-Img/JASS4-Lubricant-industry-marine-bg.jpg"
     },
     {
       "name": "STEEL MILL",
-      "img": "Features-Img/icon-steel-mill.png",
-      "bg": "Features-Img/industry-steel-mill-bg.jpg"
+      "img": "Features-Img/JASS4-Lubricant-icon-steel-mill.png",
+      "bg": "Features-Img/JASS4-Lubricant-industry-steel-mill-bg.jpg"
     },
     {
       "name": "COMMERCIAL VEHICLES",
-      "img": "Features-Img/icon-commercial-vehicles.png",
-      "bg": "Features-Img/industry-commercial-vehicles-bg.jpg"
+      "img": "Features-Img/JASS4-Lubricant-icon-commercial-vehicles.png",
+      "bg": "Features-Img/JASS4-Lubricant-industry-commercial-vehicles-bg.jpg"
     },
     {
       "name": "TRANSFORMERS",
-      "img": "Features-Img/icon-transformers.png",
-      "bg": "Features-Img/industry-transformers-bg.jpg"
+      "img": "Features-Img/JASS4-Lubricant-icon-transformers.png",
+      "bg": "Features-Img/JASS4-Lubricant-industry-transformers-bg.jpg"
     },
     {
       "name": "OIL RIGS",
-      "img": "Features-Img/icon-oil-rigs.png",
-      "bg": "Features-Img/industry-oil-rigs-bg.jpg"
+      "img": "Features-Img/JASS4-Lubricant-icon-oil-rigs.png",
+      "bg": "Features-Img/JASS4-Lubricant-industry-oil-rigs-bg.jpg"
     }
   ]

@@ -1,7 +1,6 @@
 import ContactForm from "./ContactForm";
 
 const ContactDetails = ({info}) => {
-    console.log(info);
     const {address, addressP2, phone, phone2, phone3, phone4, name, name2, name3, name4, email, map, Office, officeHours, whatsapp, whatsappN} = info;
     return (
         <div>
@@ -91,7 +90,7 @@ const ContactDetails = ({info}) => {
                                         
                                     </li>
                                 </ul>
-                                <div className="rounded-lg overflow-hidden">
+                                <div className="rounded-lg flex justify-center border ml-4 overflow-hidden">
                                     <iframe
                                         src={map}
                                         className="w-full h-64 border-0" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />

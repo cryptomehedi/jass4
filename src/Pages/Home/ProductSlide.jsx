@@ -5,6 +5,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import productsData from "../../Data/Products.json";
 import { useState } from "react";
 import ProductSlideCard from "./ProductSlideCard";
+import { Link } from "react-router-dom";
 
 const ProductSlide = () => {
   // eslint-disable-next-line
@@ -53,6 +54,7 @@ const ProductSlide = () => {
           })}
         </Swiper>
       </div>
+      <div className="text-right animate-bounce mt-5" ><Link to='/products'><button  className='bg-[#1F2A7D] text-white font-semibold p-2 px-3 md:px-5 rounded-full hover:font-bold md:mt-4 hover:bg-orange-500 duration-500 text-center'>See All Products</button></Link></div>
     </div>
   );
 };
