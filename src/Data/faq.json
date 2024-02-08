@@ -1,0 +1,222 @@
+[
+    {
+        "id" : 1,
+        "q" : "Can I mix synthetic with a conventional mineral oil",
+        "ans" : "Oils which are made for the same purpose of use and meeting the same quality classifications can usually be blended, regardless of whether they are single- or multi-grade oils. However, blending of oils meant for different purposes of use – e.g., those for diesel and gasoline engines – is not recommended. Nonetheless, the best way to guarantee uniform quality is to use the same oil between oil changes."
+    },
+    {
+        "id" : 2,
+        "q" : "What does synthetic oil mean", 
+        "ans" : "Synthetic motor oils are normally based on synthetic hydrocarbon, manufactured either from ethane gas through polymerization or a multi-phase refining and conversion process. As they are chemically hydrocarbon compounds, the same as mineral oils, they can always be used in place of mineral oils when the most high-class product is desired."
+    },
+    {
+        "id" : 3,
+        "q" : "What is a detergent or non-detergent oil", 
+        "ans" : "Detergent oils are designed to meet the highest standards of engine cleanliness and deposit control."
+    },
+    {
+        "id" : 4,
+        "q" : "What is a “biodegradable oil”", 
+        "ans" : "Biodegradability of a lubricant is characterized by its biological transformation in the presence of water by microorganisms, after 21 days."
+    },
+    {
+        "id" : 5,
+        "q" : "What is meant by the TBN of oil", 
+        "ans" : "TBN stands for Total Base Number, which is a measure of how well the oil can neutralize acidic combustion byproducts. The higher the TBN of new oil is not always a good indicator of how well the TBN will last when the oil is subject to extreme heat and corrosive exhaust gases."
+    },
+    {
+        "id" : 6,
+        "q" : "What is Kinematic Viscosity", 
+        "ans" : "The coefficient of viscosity of a fluid divided by the density, usually measured in stokes."
+    },
+    {
+        "id" : 7,
+        "q" : "What is Viscosity Index", 
+        "ans" : "Viscosity index is a dimensionless number that represents how the viscosity of a hydraulic fluid changes with temperature. (It also applies to fluids like engine and automatic transmission oils, gear lubricants, and power-steering fluids.)"
+    },
+    {
+        "id" : 8,
+        "q" : "What is Pour Point", 
+        "ans" : "Pour Point is the temperature at which a liquid becomes semisolid and loses its flowing characteristics. As the paraffin content is high in crude oil, thus it has a high Pour Point."
+    },
+    {
+        "id" : 9,
+        "q" : "What is Flash Point", 
+        "ans" : "Temperature at and above which a liquid gives off enough flammable vapor to form a mixture with air that can be ingited by contact with a hot surface, spark or flame."
+    },
+    {
+        "id" : 10,
+        "q" : "What is density", 
+        "ans" : "Density is a unit used to measure the compactness of a substance."
+    },
+    {
+        "id" : 11,
+        "q" : "Is the lubricant compatible with the materials in my component", 
+        "ans" : "Compatibility issues are usually related to the base oil of the lubricant. Note that even when base oils are listed as compatible in the chart, very low-viscosity versions of those oils may have some effect on materials."
+    },
+    {
+        "id" : 12,
+        "q" : "Is shelf life the same as functional life", 
+        "ans" : "No, shelf life is not the same as functional life. Shelf life is the period following the lubricant’s manufacture during which it is deemed suitable for use without re-testing its physical characteristics. Functional life is determined by durability or accelerated life testing of a lubricant in a component under expected operating conditions. It should be noted that most lubricants manufactured are designed for lifetime component lubrication, which often exceeds 10 years in extreme operation conditions."
+    },
+    {
+        "id" : 13,
+        "q" : "I’ve noticed sediment in my gear oil? Is it still OK to use", 
+        "ans" : "Some oil separation, which is sometimes seen on the bottom in pails or drums, should not be a problem. Oil separation is usually insignificant when compared with the mass of the oil in the container. Normally, the separated oil can be safely stirred back into the bulk of the gear oil in the container. Experience has shown that much of this time-related oil separation can be reduced if the oil is stored in a stable storage environment."
+    },
+    {
+        "id" : 14,
+        "q" : "The color of my oil has darkened compared to when it was new. Is it still OK to use", 
+        "ans" : "Yes. Oils and greases contain small amounts of additives that will darken with exposure to sunlight, UV light, temperature or contact with air. The color usually changes to a brown or green tint. Since this color change is the result of oxidation of the additives, which make up a very small portion of the oil or grease, there would be very little, if any, functional change to the lubricant."
+    },
+    {
+        "id" : 15,
+        "q" : "What equipment should I use to automatically apply your product to my component", 
+        "ans" : "Most greases, oils and dispersions can be automatically dispensed. There are many types of automatic dispensing systems for lubricants."
+    },
+    {
+        "id" : 16,
+        "q" : "What are the general storage guidelines for lubricants", 
+        "ans" : "Lubricants should be stored in a cool and dry indoor area. The indoor temperature should not exceed 86°F (30°C), and should remain above 32°F (0°C). Do not put oil directly near a heat source and avoid exposure to direct sunlight. After opening and using partial amount of fluid, packaging should be closed immediately, and kept closed. When opening the container, do not let any dust, dirt or moisture enter. Even a small amount of dust or moisture can affect the oil quality. Wipe lid or cover clean before opening."
+    },
+    {
+        "id" : 17,
+        "q" : "What is the maintenance cycle for lubrication for my component", 
+        "ans" : "While most components are considered lube for life, there are applications that require a maintenance interval to re-lube the component. Typically this maintenance for re-lube is determined by life testing of the component performed by the OEM."
+    },
+    {
+        "id" : 18,
+        "q" : "Viscosity of the oil is reported at 40ºC and 100ºC. What is the viscosity at other temperatures", 
+        "ans" : "The ASTM Standard Viscosity-Temperature Chart for Liquid Petroleum Products can be used to plot the kinematic viscosity of the oil over a wide temperature range. At temperatures approaching the base oil pour point, the viscosity increases exponentially and cannot be determined accurately."
+    },
+    {
+        "id" : 19,
+        "q" : "Will single viscosity grade oil provide better protection than a multi-grade", 
+        "ans" : "During initial startup and during the first few minutes of operation is a very critical time. This is when the majority of engine wear is often experienced. In a cold engine, multi-grades will start to flow and circulate much quicker providing better protection. Automotive manufacturers have proventhat multi-grade engine oils reduce oil consumption and critical engine area deposits when compared to mono grades."
+    },
+    {
+        "id" : 20,
+        "q" : "What is the difference between ISO viscosity grade and SAE weight", 
+        "ans" : "The International Standards Organization (ISO) developed a viscosity measurement index based on the measurement of kinematic viscosity at 40°C or similar to standardization of industrial type oils. The Society of Automotive Engines (SAE) has developed an engine oil and gear oil viscosity scale based on the kinematic viscosity of automotive oils at 100°C or similar to elevated operating temperatures for automotive applications."
+    },
+    {
+        "id" : 21,
+        "q" : "What is meant by the term “ash content” in natural gas engine oils", 
+        "ans" : "The ash deposits (or ash content) are the residue remaining after the oil is burned during operation. The ash is made up of metallic detergent additives, such as calcium, barium, and magnesium compounds."
+    },
+    {
+        "id" : 22,
+        "q" : "What does zinc do in oil", 
+        "ans" : "Zinc or Zinc diakyl di-triphosphate (ZDDP) is widely used as an anti-wear additive used in many types of hydraulic and engine oils to protect heavily loaded parts from wear. ZDDP is a last resort against metal-to-metal contact."
+    },
+    {
+        "id" : 23,
+        "q" : "What is the application of “moly” in oils", 
+        "ans" : "The word “moly” is shortened from molybdenum disulfide which is a chemical compound used in many oils and greases to reduce friction and minimize metal-to-metal contact by adhering to the metal surface."
+    },
+    {
+        "id" : 24,
+        "q" : "Are there detergents and anti-foam additives in hydraulic oils", 
+        "ans" : "Anti-wear Hydraulic Oil is formulated with a very effective anti-foam agent that permits the very rapid release of entrained air hydraulic oils and is classified as a non-detergent lubricant."
+    },
+    {
+        "id" : 25,
+        "q" : "What does HVI mean", 
+        "ans" : "An oil classified as High Viscosity Index (HVI) is recommended for equipment and hydraulics that are subject to wide ambient and operating temperatures."
+    },
+    {
+        "id" : 26,
+        "q" : "What is meant by dielectric strength of oil", 
+        "ans" : "Dielectric strength is an indication of the electrical insulating properties of a lubricant. Water and other contaminates are the most likely cause of a low insulting number."
+    },
+    {
+        "id" : 27,
+        "q" : "Are Tractor Hydraulic Fluids non-conductive", 
+        "ans" : "No, gear oil additives used in the Tractor Hydraulic Fluid and the capability of the fluid to emulsify water both create a conductive nature to the fluid."
+    },
+    {
+        "id" : 28,
+        "q" : "Will altering the oil change intervals recommended by the auto manufacturer affect the life of my engine", 
+        "ans" : "Under normal driving conditions the OEM has set a recommended oil change interval based on many hours of testing and research into the desired amount of time needed to get optimum life from the engine. Altering the recommended schedule oil can result in reduced engine performance and life. Oil must be changed no later than the maximum number of driven miles given by the car manufacturer. Winter driving, short trips, dusty conditions, etc., require more frequent oil changes. Sufficiently frequent oil changes are the cheapest way to prolong engine life."
+    },
+    {
+        "id" : 29,
+        "q" : "Does it require two different grades of oil, one for new engines and for older units", 
+        "ans" : "No, the latest API engine oils are designed to be backwards compatible."
+    },
+    {
+        "id" : 30,
+        "q" : "Can I use heavy duty fleet engine oil in a gasoline powered automobile and truck", 
+        "ans" : "Yes, providing you follow the proper viscosity and oil quality outlined by the OEM engine manufacturer. Most engine oils are designed for both gasoline and diesel applications."
+    },
+    {
+        "id" : 31,
+        "q" : "What would happen if older diesel fleet engine oils are used in newer engines", 
+        "ans" : "Because of the higher levels of sulfated ash, phosphorus and sulfur used to formulate these previous types of oil, there is a risk of plugging the diesel particulate filters (DPF) and could cause more frequent maintenance of the low emission exhaust system. In addition, the older chemistries may not be able to handle the higher temperatures and increase in exhaust gas being pumped back into the crankcase on the new 2007 EPA compliant engines."
+    },
+    {
+        "id" : 32,
+        "q" : "Can I use heavy duty fleet diesel oil in motorcycles", 
+        "ans" : "Yes, the robust additive package and high amount of anti-wear additive makes these heavy duty oils well suited for this service. Care must be taken to ensure the proper viscosity (as recommended by the manufacturer) is used."
+    },
+    {
+        "id" : 33,
+        "q" : "Does API CJ-4 apply to off-high-way equipment", 
+        "ans" : "Yes, diesel fleet engine oils have proven to offer excellent protection when using high sulfur diesel fuels."
+    },
+    {
+        "id" : 34,
+        "q" : "Are Hydraulic Oils recommended for hydraulic applications in Caterpillar (CAT) equipment", 
+        "ans" : "Most anti-wear and industrial hydraulic fluids do not meet these requirements. They are formulated with the newest technology which utilizes a lower zinc level than CAT requires. A minimum of 900 ppm zinc content that can be found in TO-4 fluids will meet these requirements."
+    },
+    {
+        "id" : 35,
+        "q" : "Can Tractor Hydraulic Fluid be used as hydraulic oil in Caterpillar (CAT) equipment", 
+        "ans" : "Yes, the viscosity and additive system in tractor fluid allows its use in CAT hydraulic systems."
+    },
+    {
+        "id" : 36,
+        "q" : "Does Tractor Hydraulic Fluid meet the requirements of Caterpillar (CAT) specification TO-4", 
+        "ans" : "No, tractor hydraulic fluid meets the requirements of CAT TO-2 but not CAT TO-4."
+    },
+    {
+        "id" : 37,
+        "q" : "Can a heavy duty synthetic automatic transmission fluid be used in applications calling for Allison TES 295 specification", 
+        "ans" : "Yes, the heavy duty transmission fluid that is tested by Vapro Lubricants meets and surpasses many of the performance specifications outlined by Allison and is recommended by Vapro Lubricants for applications requiring Allison TES 295 performance."
+    },
+    {
+        "id" : 38,
+        "q" : "What is the weight of “Tractor Hydraulic Fluid”", 
+        "ans" : "The SAE engine oil equivalent weight of a “ Tractor Hydraulic Fluid” is a 20 weight. The ISO viscosity of a tractor hydraulic fluid is typically between an ISO 46 and ISO 68 hydraulic fluid."
+    },
+    {
+        "id" : 39,
+        "q" : "What level of gear protection does the Tractor Hydraulic Fluid have", 
+        "ans" : " For gear applications tractor hydraulic fluid provides equivalent protection at the API GL-4 service level."
+    },
+    {
+        "id" : 40,
+        "q" : "Can Multi-Purpose ATF be used as a “Multi-Vehicle” ATF", 
+        "ans" : "No, multi-purpose ATF is specifically designed for use in GM transmissions calling for Dexron® III performance and Ford Mercon® performance."
+    },
+    {
+        "id" : 41,
+        "q" : "Which factors have an impact on oil consumption", 
+        "ans" : "In addition to the mechanical condition of the engine, oil consumption is most affected by the viscosity of the oil used, the volatility of the base oil, the degree of filling and the manner of driving. Usually, thin oil is consumed faster than thicker oil."
+    },
+    {
+        "id" : 42,
+        "q" : "Do some oils tend to have higher consumption than others", 
+        "ans" : "Consumption of thin oil is greater than that of thick oil. This is a general rule, but sometimes there are exceptions. For example, when changing the oil grade, consumption may be higher before the first oil change, and a new engine often consumes more oil than normal."
+    },
+    {
+        "id" : 43,
+        "q" : "Why are oil changes important", 
+        "ans" : "The oil properties gradually diminish during use and the number of impurities increase. Sufficiently frequent oil changes remove the impurities from the engine and replace them with high-performance oil. The additives in high-performance motor oil help keep the engine clean and prevent corrosion, resulting in less wear and longer engine life. In addition, high-performance oil keeps the engine and catalytic converter in good condition and the lubricating properties of the oil as good as those of new oil. This achieves cleaner exhaust gas emissions and lower fuel consumption."
+    },
+    {
+        "id" : 44,
+        "q" : "Can the anti-freeze and global or extended life coolant be blended together", 
+        "ans" : "No, rust preventative additive packages between types of coolants may not be compatible with each other and therefore are not compatible with some coolant systems."
+    }
+]

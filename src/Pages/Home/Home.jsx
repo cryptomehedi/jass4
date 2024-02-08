@@ -1,3 +1,4 @@
+
 import PageTitle from "../Shared/PageTitle";
 import Banner from "./Banner";
 import Features from "./Features";
@@ -6,6 +7,7 @@ import ProductSlide from "./ProductSlide";
 import Testimonials from "./Testimonials";
 
 const Home = () => {
+  
   return (
     <div>
       <PageTitle text="Home"/>

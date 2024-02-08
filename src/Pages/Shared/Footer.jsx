@@ -11,7 +11,7 @@ const Footer = () => {
           <Link to='about' className="link link-hover">About Us</Link>
           <a className="link link-hover">Brands</a>
           <Link to='products' className="link link-hover">Products</Link>
-          <a className="link link-hover">Services</a>
+          <Link to='services' className="link link-hover">Services</Link>
           <Link to='contact' className="link link-hover">Contact Us</Link>
         </nav> 
         <nav>
@@ -27,21 +27,20 @@ const Footer = () => {
         <nav>
           <header className="footer-title">Legal</header> 
           <Link to='T&C' className="link link-hover">Terms of use</Link>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
-          <a className="link link-hover">FAQ</a>
-          <a className="link link-hover">News & Events</a>
+          <Link to='privacy' className="link link-hover">Privacy policy</Link>
+          <Link to='cookies' className="link link-hover">Cookie policy</Link>
+          <Link to='faq' className="link link-hover">FAQ</Link>
         </nav>
       </footer> 
       <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
       <aside>
           <div className="w-1/3">
-            <img src={logo} alt="JASS4" srcSet="" />
+            <img src={logo} alt="JASS4 Lubricant" srcSet="" />
           </div>
           <p>
             JASS4 Brothers Petroleum Ltd. Since 2012
             <br />
-            <img className="w-32 md:w-40" src={img} alt="" />
+            <img className="w-32 md:w-40" src={img} alt="JASS4 Lubricant" />
           </p>
         </aside> 
         <nav className="md:place-self-center md:justify-self-end">

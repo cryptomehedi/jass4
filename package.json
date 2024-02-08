@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.1.0",
     "firebase": "^10.7.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
@@ -19,7 +20,8 @@
     "react-helmet-async": "^2.0.4",
     "react-router-dom": "^6.21.1",
     "sort-by": "^1.2.0",
-    "swiper": "^11.0.5"
+    "swiper": "^11.0.5",
+    "validator": "^13.11.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

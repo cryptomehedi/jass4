@@ -8,6 +8,9 @@ import ProductDetails from "../Pages/Product/ProductDetails";
 import Services from "../Pages/Services/Services";
 import Contact from "../Pages/Contact-Us/Contact";
 import TermesAndConditions from "../Pages/TermsAndConditions/TermesAndConditions";
+import FAQ from "../Pages/TermsAndConditions/FAQ";
+import Privacy from "../Pages/TermsAndConditions/Privacy";
+import Cookies from "../Pages/TermsAndConditions/Cookies";
 
 export const router = createBrowserRouter([
   {
@@ -59,11 +62,18 @@ export const router = createBrowserRouter([
         path: "T&C",
         element: <TermesAndConditions />,
       },
-    
-    //   {
-    //     path: "product/:id",
-    //     element: <ProductDetails />,
-    //   },
+      {
+        path: "faq",
+        element: <FAQ />,
+      },
+      {
+        path: "privacy",
+        element: <Privacy />,
+      },
+      {
+        path: "cookies",
+        element: <Cookies />,
+      },
     ],
   },
 ]);
