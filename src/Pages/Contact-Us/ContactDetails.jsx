@@ -4,14 +4,7 @@ const ContactDetails = ({ info }) => {
   const {
     address,
     addressP2,
-    phone,
-    phone2,
-    phone3,
-    phone4,
-    name,
-    name2,
-    name3,
-    name4,
+    persons,
     email,
     webEmail,
     map,
@@ -20,7 +13,9 @@ const ContactDetails = ({ info }) => {
     whatsapp,
     whatsappN,
   } = info;
+
   return (
+    
     <div>
       <section className="bg-blue-50 dark:bg-slate-800" id="contact">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
@@ -94,30 +89,16 @@ const ContactDetails = ({ info }) => {
                         Contact
                       </h3>
                       <div className="grid md:grid-cols-2">
-                        <div className="flex">
-                          <a className="mr-2" href={`tel:+88${phone}`}>
-                            {phone}
-                          </a>
-                          {name}
-                        </div>
-                        <div className="flex">
-                          <a className="mr-2" href={`tel:+88${phone2}`}>
-                            {phone2}
-                          </a>
-                          {name2}
-                        </div>
-                        <div className="flex">
-                          <a className="mr-2" href={`tel:+88${phone3}`}>
-                            {phone3}
-                          </a>
-                          {name3}
-                        </div>
-                        <div className="flex">
-                          <a className="mr-2" href={`tel:+88${phone4}`}>
-                            {phone4}
-                          </a>
-                          {name4}
-                        </div>
+                        {
+                          persons.map(person=>{
+                            return <div key={person.id} className="flex">
+                                      <a className="mr-2" href={`tel:+88${person.phone}`}>
+                                        {person.phone}
+                                      </a>
+                                      {person.name}
+                                    </div>
+                          })
+                        }
                       </div>
                       <p>
                         <a href={`mailto:${email}`}>Mail: {email}</a>
@@ -190,7 +171,7 @@ const ContactDetails = ({ info }) => {
                     </div>
                   </li>
                 </ul>
-                <div className="rounded-lg flex justify-center border ml-4 overflow-hidden">
+                <div className="rounded-lg flex justify-center ml-4 overflow-hidden">
                   <iframe
                     src={map}
                     className="w-full h-80 border-0"
