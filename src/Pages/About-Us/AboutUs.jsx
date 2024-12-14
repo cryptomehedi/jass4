@@ -4,6 +4,7 @@ import AboutBanner from "./AboutBanner";
 import AboutMerits from "./AboutMerits";
 import Cover from "../Shared/Cover";
 import PageTitle from "../Shared/PageTitle";
+import AboutCEO from "./AboutCEO";
 
 const AboutUs = () => {
   return (
@@ -15,6 +16,7 @@ const AboutUs = () => {
       </div>
       <ABoutFeature />
       <AboutMerits />
+      <AboutCEO/>
       <OurBrands />
     </div>
   );

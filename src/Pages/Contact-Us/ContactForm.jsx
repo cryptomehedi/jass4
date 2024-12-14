@@ -24,6 +24,9 @@ const ContactForm = () => {
     }
   }, [error]);
 
+  const handleEml = (e) => {
+    e.preventDefault;
+  };
 
   const handleEmail = (e) => {
     e.preventDefault();
@@ -95,13 +98,14 @@ const ContactForm = () => {
             </div>
 
             <form
-              onSubmit={handleEmail}
+              onSubmit={handleEml}
               ref={form}
               className="text-black dark:text-white"
             >
               <input
                 className="shadow mb-4 appearance-none border rounded w-full py-2 px-3  leading-tight focus:outline-none focus:shadow-outline"
                 type="text"
+                disabled
                 placeholder="Name"
                 name="user_name"
                 value={name}
@@ -111,6 +115,7 @@ const ContactForm = () => {
               <input
                 className="shadow mb-4 appearance-none border rounded w-full py-2 px-3  leading-tight focus:outline-none focus:shadow-outline"
                 type="number"
+                disabled
                 placeholder="Phone Number"
                 name="user_phone"
                 value={phone}
@@ -120,6 +125,7 @@ const ContactForm = () => {
               <input
                 className="shadow mb-4 appearance-none border rounded w-full py-2 px-3  leading-tight focus:outline-none focus:shadow-outline"
                 type="email"
+                disabled
                 placeholder="Email"
                 name="user_email"
                 value={email}
@@ -131,6 +137,7 @@ const ContactForm = () => {
                 type="text"
                 placeholder="Type your message here..."
                 name="message"
+                disabled
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               />
@@ -143,7 +150,8 @@ const ContactForm = () => {
                 <input
                   className="shadow bg-indigo-600 hover:bg-indigo-700 cursor-pointer text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                   type="submit"
-                  disabled={sending}
+                  disabled
+                  // disabled={sending}
                   value="Send ➤"
                 />
               </div>

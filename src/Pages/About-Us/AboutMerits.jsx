@@ -66,6 +66,7 @@ const AboutMerits = () => {
           </div>
         </div>
       </section>
+      
     </div>
   );
 };
