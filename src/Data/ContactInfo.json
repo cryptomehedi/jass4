@@ -1,20 +1,25 @@
 {
-  "email": "Jass4lubricant@gmail.com",
+  "email": "jassfourlubricant@gmail.com",
   "webEmail": "info@jass4.com",
   "persons" : [
     { 
       "id" : 1,
-      "name": "Main Office", 
+      "name" : "Main Office",
       "phone": "01727740016"
+    },
+    { 
+      "id" : 2, 
+      "phone": "01750575894"
     }
   ],
   "phoneWp": "+8801906654774",
-  "address": "Munsi Para,Near Gorosthan,",
-  "addressP2": "Naogaon Sadar, Naogaon -6500",
+  "address": "Road# 5, Kaderiabag Housing,",
+  "addressP2": "Mohammadpur, Dhaka-1207.",
+  "addressP3": "Munsipara, Naogaon Sadar, Naogaon-6500.",
   "maps": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2153.080555715686!2d88.92759393199746!3d24.82846153828214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1707395597997!5m2!1sen!2sbd",
   "whatsapp": "https://wa.me/8801906654774",
   "whatsappN": "(+880) 1906-654774",
   "Office": "Saturday to Friday",
   "officeHours": "9 AM - 7 PM",
-  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.165181193519!2d88.92971307406654!3d24.824024146716994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc7d004b1249ab%3A0x85c815979244ccbb!2sMunshipara%2C%20Naogaon!5e0!3m2!1sen!2sbd!4v1729598375144!5m2!1sen!2sbd"
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.7928929765108!2d90.35788627402687!3d23.75476378861134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf78f21dcc8f%3A0xc9c500472def4265!2sMohammadpur!5e0!3m2!1sen!2sbd!4v1736079633597!5m2!1sen!2sbd"
 }

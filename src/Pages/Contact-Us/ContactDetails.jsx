@@ -3,7 +3,8 @@ import ContactForm from "./ContactForm";
 const ContactDetails = ({ info }) => {
   const {
     address,
-    addressP2,
+    addressP2, 
+    addressP3,
     persons,
     email,
     webEmail,
@@ -62,6 +63,9 @@ const ContactDetails = ({ info }) => {
                       </p>
                       <p className="text-gray-600 dark:text-slate-400">
                         {addressP2}
+                      </p>
+                      <p className="text-gray-600 dark:text-slate-400">Sales Office:-
+                        {addressP3}
                       </p>
                     </div>
                   </li>
