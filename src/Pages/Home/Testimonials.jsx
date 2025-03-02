@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import TestimonialSlideCard from "./testimonialSlideCard";
+import TestimonialSlideCard from "./TestimonialSlideCard";
 
 const Testimonials = () => {
   // eslint-disable-next-line
