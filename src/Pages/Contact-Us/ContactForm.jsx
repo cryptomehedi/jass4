@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { useEffect, useRef, useState } from "react";
-import isEmail from "validator/lib/isemail";
-import emailjs from "@emailjs/browser";
+// import isEmail from "validator/lib/isemail";
+// import emailjs from "@emailjs/browser";
 import SendingModal from "./SendingModal";
 
 const ContactForm = () => {
@@ -28,60 +28,60 @@ const ContactForm = () => {
     e.preventDefault;
   };
 
-  const handleEmail = (e) => {
-    e.preventDefault();
+  // const handleEmail = (e) => {
+  //   e.preventDefault();
 
-    if (name && email && message && phone) {
-      if (phone.length > 10 && phone.length < 12) {
-        setSending(true);
-        setSendingText("Email Sending Please wait...");
-        setValuePressed(20);
-        if (isEmail(email)) {
-          setValuePressed(50);
-          emailjs
-            .sendForm(
-              "service_jass4",
-              "template_jass4",
-              form.current,
-              "afeU9_MAjsMDpy3l5"
-            )
-            .then(
-              (result) => {
-                setValuePressed(70);
-                setError("");
-                setName("");
-                setPhone("");
-                setEmail("");
-                setMessage("");
+  //   if (name && email && message && phone) {
+  //     if (phone.length > 10 && phone.length < 12) {
+  //       setSending(true);
+  //       setSendingText("Email Sending Please wait...");
+  //       setValuePressed(20);
+  //       if (isEmail(email)) {
+  //         setValuePressed(50);
+  //         emailjs
+  //           .sendForm(
+  //             "service_jass4",
+  //             "template_jass4",
+  //             form.current,
+  //             "afeU9_MAjsMDpy3l5"
+  //           )
+  //           .then(
+  //             (result) => {
+  //               setValuePressed(70);
+  //               setError("");
+  //               setName("");
+  //               setPhone("");
+  //               setEmail("");
+  //               setMessage("");
 
-                if (result.status === 200) {
-                  setSuccess(true);
-                  setValuePressed(100);
-                  setSendingText("Email Sent Successfully");
-                  setTimeout(() => {
-                    setSending(false);
-                  }, 4000);
-                  e.target.reset();
-                }
-                console.log(result.status);
-              },
-              (error) => {
-                setSendingText(error.text);
-                setValuePressed(0);
-                console.log(error.text);
-              }
-            );
-        } else {
-          setError("Please Put Your Valid Email Address");
-          setSending(false);
-        }
-      } else {
-        setError("Please Put Your 11 Digits Phone Number");
-      }
-    } else {
-      setError("Enter all the fields");
-    }
-  };
+  //               if (result.status === 200) {
+  //                 setSuccess(true);
+  //                 setValuePressed(100);
+  //                 setSendingText("Email Sent Successfully");
+  //                 setTimeout(() => {
+  //                   setSending(false);
+  //                 }, 4000);
+  //                 e.target.reset();
+  //               }
+  //               console.log(result.status);
+  //             },
+  //             (error) => {
+  //               setSendingText(error.text);
+  //               setValuePressed(0);
+  //               console.log(error.text);
+  //             }
+  //           );
+  //       } else {
+  //         setError("Please Put Your Valid Email Address");
+  //         setSending(false);
+  //       }
+  //     } else {
+  //       setError("Please Put Your 11 Digits Phone Number");
+  //     }
+  //   } else {
+  //     setError("Enter all the fields");
+  //   }
+  // };
 
   return (
     <div className="">
