@@ -34,7 +34,7 @@ const Navbar = () => {
                                 )
                             }
                         </div>
-                        <CustomLink to="/" className="btn btn-ghost normal-case  text-xl"><img className="h-full" src={logo} alt="JASS4"/></CustomLink>
+                        <CustomLink to="/" className="btn btn-ghost normal-case  text-xl"><img className="h-full" src={logo} alt="JASS MAX1"/></CustomLink>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex lg:mr-10">
