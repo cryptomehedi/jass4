@@ -6,9 +6,9 @@ const ProductSlideCard = ({ info }) => {
     <div className="card card-compact w-full  bg-base-100 shadow-xl">
       <figure>
         <img
-          className="w-56 shadow-2xl mt-4 rounded-lg"
+          className="w-56 h-60 shadow-2xl mt-4 rounded-lg"
           src={img}
-          alt={`${name} || JASS4 Lubricant`}
+          alt={`${name} || JASS MAX1 Lubricant`}
         />
       </figure>
       <div className="card-body">

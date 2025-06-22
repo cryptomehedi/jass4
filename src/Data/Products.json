@@ -1,111 +1,65 @@
 [
     {
         "id": 1,
-        "img" : "/Products/JASS4-10w-30.jpg",
+        "img" : "/Products/JASS-MAX1-10W-30s.jpg",
         "name" : "Semi Synthetic Xtrame 3000",
         "power" : "10W-30", 
         "Weight" : 1,
         "price" : 500,
-        "description" : "JASS4 Semi Synthetic Xtrame 3000 10W-30 has been formulated with special active cleansing technology. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up. In addition to offering excellent engine protection for all driving conditions, JASS4 Semi Synthetic Xtrame 3000 10W-30 cleans and protects to help deliver extra responsiveness. JASS4 Semi Synthetic Xtrame 3000 10W-30 has been designed to provide superior soot dispersancy, exceptional cleanliness and reduced oil consumption through the use of a unique combination of selected additives and selected base oils GROUP II & lll, and is suitable for use in normally aspirated and turbocharged diesel engines."
+        "description" : "JASS MAX1 Semi Synthetic Xtrame 3000 10W-30 has been formulated with special active cleansing technology. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up. In addition to offering excellent engine protection for all driving conditions, JASS MAX1 Semi Synthetic Xtrame 3000 10W-30 cleans and protects to help deliver extra responsiveness. JASS MAX1 Semi Synthetic Xtrame 3000 10W-30 has been designed to provide superior soot dispersancy, exceptional cleanliness and reduced oil consumption through the use of a unique combination of selected additives and selected base oils GROUP II & lll, and is suitable for use in normally aspirated and turbocharged diesel engines."
     },
     {
         "id": 2,
-        "img" : "/Products/JASS4-20w40.jpg",
+        "img" : "/Products/JASS-MAX1-10W-30f.jpg",
+        "name" : "Full Synthetic Xtrame 3000",
+        "power" : "10W-30", 
+        "Weight" : 1,
+        "price" : 500,
+        "description" : "JASS MAX1 Full Synthetic Xtrame 3000 10W-30 has been formulated with special active cleansing technology. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up. In addition to offering excellent engine protection for all driving conditions, JASS MAX1 Full Synthetic Xtrame 3000 10W-30 cleans and protects to help deliver extra responsiveness. JASS MAX1 Full Synthetic Xtrame 3000 10W-30 has been designed to provide superior soot dispersancy, exceptional cleanliness and reduced oil consumption through the use of a unique combination of selected additives and selected base oils GROUP II & lll, and is suitable for use in normally aspirated and turbocharged diesel engines."
+    },
+    {
+        "id": 3,
+        "img" : "/Products/JASS-MAX1-10W-40s.jpg",
+        "name" : "Semi Synthetic Xtrame 3000",
+        "power" : "10W-40", 
+        "Weight" : 1,
+        "price" : 500,
+        "description" : "JASS MAX1 Semi Synthetic Xtrame 3000 10W-40 has been formulated with special active cleansing technology. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up. In addition to offering excellent engine protection for all driving conditions, JASS MAX1 Semi Synthetic Xtrame 3000 10W-40 cleans and protects to help deliver extra responsiveness. JASS MAX1 Semi Synthetic Xtrame 3000 10W-40 has been designed to provide superior soot dispersancy, exceptional cleanliness and reduced oil consumption through the use of a unique combination of selected additives and selected base oils GROUP II & lll, and is suitable for use in normally aspirated and turbocharged diesel engines."
+    },
+    {
+        "id": 4,
+        "img" : "/Products/JASS-MAX1-20W-40.jpg",
         "name" : "Semi Synthetic Xtrame 3000",
         "power" : "20W-40", 
         "Weight" : 1,
         "price" : 500,
-        "description" : "JASS4 Semi Synthetic Xtrame 3000 20W-40 CF has been formulated with special active cleansing technology, dispersant, anti-oxidant, anti-rust, anti-wear and anti-foam properties. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up and reduces engine noise."
+        "description" : "JASS MAX1 Semi Synthetic Xtrame 3000 20W-40 CF has been formulated with special active cleansing technology, dispersant, anti-oxidant, anti-rust, anti-wear and anti-foam properties. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up and reduces engine noise."
     },
     {
-        "id": 3,
-        "img" : "/Products/JASS4-20w-50.jpg",
+        "id": 5,
+        "img" : "/Products/JASS-MAX1-20W-40.jpg",
+        "name" : "Full Synthetic Xtrame 3000",
+        "power" : "20W-40", 
+        "Weight" : 1,
+        "price" : 500,
+        "description" : "JASS MAX1 Full Synthetic Xtrame 3000 20W-40 CF has been formulated with special active cleansing technology, dispersant, anti-oxidant, anti-rust, anti-wear and anti-foam properties. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up and reduces engine noise."
+    },
+    {
+        "id": 6,
+        "img" : "/Products/JASS-MAX1-20W-50s.jpg",
         "name" : "Semi Synthetic Xtrame 3000",
         "power" : "20W-50", 
         "Weight" : 1,
         "price" : 500,
-        "description" : "JASS4 Semi Synthetic Xtrame 3000 20W-50 has been formulated with special cleansing technology, dispersant, anti-oxidant, anti-rust, anti-wear and anti-foam properties. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up and reduces engine noise."
-    },
-    {
-        "id": 12,
-        "img" : "/Products/JASS4-20W-40-4L.jpg",
-        "name" : "Semi Synthetic Xtrame 3000",
-        "power" : "20W-40", 
-        "Weight" : 4,
-        "price" : 500,
-        "description" : "JASS4 Semi Synthetic Xtrame 3000 20W-40 CF has been formulated with special active cleansing technology, dispersant, anti-oxidant, anti-rust, anti-wear and anti-foam properties. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up and reduces engine noise."
-    },
-    {
-        "id": 13,
-        "img" : "/Products/JASS4-20W-40-5L.jpg",
-        "name" : "JASS4 Hyper",
-        "power" : "20W-40", 
-        "Weight" : 5,
-        "price" : 500,
-        "description" : "JASS4 Semi Synthetic Xtrame 3000 20W-40 CF has been formulated with special active cleansing technology, dispersant, anti-oxidant, anti-rust, anti-wear and anti-foam properties. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up and reduces engine noise."
-    },
-    {
-        "id": 4,
-        "img" : "/Products/JASS4-Synthetic-base-oil.jpg",
-        "name" : "Synthetic Base Oil",
-        "power" : "15W-40", 
-        "Weight" : 4,
-        "price" : 500,
-        "description" : "JASS4 Synthetic Base Oil 15W-40 CH-4 is a high quality mixed fleet engine oil recommended for use in American, European and Japanese engines, both on and off-road and in a wide range of diesel engines. JASS4 Synthetic Base Oil 15W-40 CH-4 has been designed to provide superior soot dispersancy, exceptional cleanliness and reduced oil consumption through the use of a unique combination of selected additives and base oils, and is suitable for use in normally aspirated and turbocharged diesel engines."
-    },
-    {
-        "id": 5,
-        "img" : "/Products/JASS4-HM-46.jpg",
-        "name" : "JASS4 Lub",
-        "power" : "L-HM 46", 
-        "Weight" : 20,
-        "price" : 500,
-        "description" : "JASS4 LUB L-HM 46 46 is a premium high performance oils intended for industrial and mobile service where anti-wear lubricants are required. The JASS4 LUB L-HM 46 46 is designed to satisfy the performance requirements for a wide range of hydraulic components in systems subjected to high-pressure, high-temperature operating environments. Their high level of resistance to oxidation and good thermal stability characteristics help reduce deposit formation and help prevent sluggish system operation. JASS4 LUB L-HM 46 46 provide good protection against rust and corrosion in high humidity operations or where low levels of moisture are unavoidable. JASS4 LUB L-HM 46 46 separate water readily and have very good air release properties. These products meet the performance requirements of a wide range of hydraulic system and component OEM’s and are compatible with the pump and component metallurgy used by various manufacturers. JASS4 LUB L-HM 46 32 is formulated with high quality base stocks and a carefully selected additive system that result in finished products that provide many desirable features to improve and prolong equipment life. They are designed to work with systems operating under moderate to severe conditions where a high level of anti-wear protection is needed, yet they are suitable for use in many systems where non-anti-wear hydraulic oils are generally recommended"
+        "description" : "JASS MAX1 Semi Synthetic Xtrame 3000 20W-50 has been formulated with special cleansing technology, dispersant, anti-oxidant, anti-rust, anti-wear and anti-foam properties. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up and reduces engine noise."
     },
     {
         "id": 7,
-        "img" : "/Products/JASS4-Dram.jpg",
-        "name" : "JASS4 Drum",
-        "power" : "L-HM 46", 
-        "Weight" : 50,
+        "img" : "/Products/JASS-MAX1-20W-50f.jpg",
+        "name" : "Full Synthetic Xtrame 3000",
+        "power" : "20W-50", 
+        "Weight" : 1,
         "price" : 500,
-        "description" : "JASS4 Drum L-HM 46 46 is a premium high performance oils intended for industrial and mobile service where anti-wear lubricants are required. The JASS4 Drum L-HM 46 46 is designed to satisfy the performance requirements for a wide range of hydraulic components in systems subjected to high-pressure, high-temperature operating environments. Their high level of resistance to oxidation and good thermal stability characteristics help reduce deposit formation and help prevent sluggish system operation. JASS4 Drum L-HM 46 46 provide good protection against rust and corrosion in high humidity operations or where low levels of moisture are unavoidable. JASS4 Drum L-HM 46 46 separate water readily and have very good air release properties. These products meet the performance requirements of a wide range of hydraulic system and component OEM’s and are compatible with the pump and component metallurgy used by various manufacturers. JASS4 Drum L-HM 46 32 is formulated with high quality base stocks and a carefully selected additive system that result in finished products that provide many desirable features to improve and prolong equipment life. They are designed to work with systems operating under moderate to severe conditions where a high level of anti-wear protection is needed, yet they are suitable for use in many systems where non-anti-wear hydraulic oils are generally recommended"
-    },
-    {
-        "id": 8,
-        "img" : "/Products/JASS4-EP-140.jpg",
-        "name" : "MX-1 Gear Gard API GL-4",
-        "power" : "EP-140", 
-        "Weight" : 20,
-        "price" : 500,
-        "description" : "JASS4 MX-1 Gear Gard API GL-4 EP 140 is manufactured from highly refined base oils and field-proven performance additives. These gear oil offers excellent chemical and thermal stability over a wide temperature range and optimum protection against wear and shock loads in transmissions and axles. It is designed to provide excellent gear protection. It exceeds the latest requirements of gear and transmission manufacturers requiring API GL-5. The API GL-5 designation covers hypoid gears in passenger cars and light duty trucks as well as heavy-duty trucks operating under high-speed/shock-load, high-speed/ low-torque and low-speed/high-torque conditions. JASS4 MX-1 Gear Gard API GL-4 EP 140 is fortified with additives to prevent rust and corrosion. It is blended with anti-foam to prevent wear caused by lubricant foaming and aeration. JASS4 MX-1 Gear Gard API GL-4 EP 90 is compatible with seals and gaskets in automotive and truck components. This lubricant further provides excellent low-temperature protection in the pinion-drive bearing channel."
-    },
-    {
-        "id": 9,
-        "img" : "/Products/JASS4-HD-50.jpg",
-        "name" : "Max 2000 (Diesel/Petrol)",
-        "power" : "HD-50", 
-        "Weight" : 4,
-        "price" : 500,
-        "description" : "JASS4 Max 2000 (Diesel/Petrol) HD 50 has been formulated with special active cleansing technology, dispersant, anti-oxidant, anti-rust, anti-wear and anti-foam properties. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up and reduces engine noise."
-    },
-    {
-        "id": 10,
-        "img" : "/Products/JASS4-DOT-3.jpg",
-        "name" : "Brake Fluid High Performance",
-        "power" : "DOT-3",  
-        "Weight" : "500ml",
-        "price" : 500,
-        "description" : "JASS4 Brake Fluid DOT 3 is a high-performance polyglycol type Brake Fluid designed to use in brake and clutch systems. It optimizes the benefits of superior boiling point and high vapor lock temperature through its service life. Brake Fluid DOT 3 is compatible with all metals and rubber seals typically used in automotive braking systems. It is suitable for disc, drum and anti-skid ABS braking and electronic stability control systems used in high performance vehicles with high thermal load around the braking systems."
-    },
-    {
-        "id": 11,
-        "img" : "/Products/JASS4-ATF.jpg",
-        "name" : "Automatic Transmission Fluid",
-        "power" : "ATF DEX-III", 
-        "Weight" : 4,
-        "price" : 500,
-        "description" : "JASS4 ATF DEX-III is suitable for passenger cars and commercial vehicles equipped with a dual clutch transmission system. It is recommended for use in the mainstream marques of the VW Group (Audi, VW, Seat, Skoda) equipped with DSG (Direkt Schalt Geatriebe) and “S Tronic” 6-speed wet clutch systems (>2003 units). Itis, also, suitable for Ford’s “PowerShift” wet clutch transmissions (also used in certain Volvo models), Mitsubishi’s Twin Clutch SST transmission units and Getrag-produced twin-clutch gearboxes for PSA Peugeot Citroen vehicles (>2007 units)."
+        "description" : "JASS MAX1 Full Synthetic Xtrame 3000 20W-50 has been formulated with special cleansing technology, dispersant, anti-oxidant, anti-rust, anti-wear and anti-foam properties. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up and reduces engine noise."
     }
-    
 ]

@@ -13,7 +13,7 @@ const ProductDetails = () => {
         <div className="container w-full px-5 py-24 mx-auto">
           <div className="lg:w-4/5 w-5/6 mx-auto flex flex-wrap">
             <img
-              alt={`${name} | JASS4 Lubricant`}
+              alt={`${name} | JASS MAX1 Lubricant`}
               className="lg:w-1/2 w-full lg:h-auto md:h-40 object-cover object-center rounded-2xl"
               src={img}
             />

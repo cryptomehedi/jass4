@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import distributerData from '../../Data/distributor.json'
-import img from "/services/JASS4-Lubricant-services-distributor.jpg"
+import img from "/services/JASS-MAX1-Lubricant-services-distributor.jpg"
 
 
 const ServiceDistributor = () => {
@@ -26,7 +26,7 @@ const ServiceDistributor = () => {
         <section className=" body-font">
             <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                    <img className="object-cover object-center md:min-h-screen rounded" alt="JASS4 Lubricant" src={img} />
+                    <img className="object-cover object-center md:min-h-screen rounded" alt="JASS MAX1 Lubricant" src={img} />
                 </div>
                 <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                     {

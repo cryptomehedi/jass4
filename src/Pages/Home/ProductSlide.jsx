@@ -12,7 +12,7 @@ const ProductSlide = () => {
   const [products, setProducts] = useState(productsData);
 
   return (
-    <div className="slider-bg-img rounded-lg h-full border-transparent border mt-10 my-auto">
+    <div className="slider-bg-img  rounded-lg h-full border-transparent border mt-10 my-auto">
       <div className="mt-10 px-4">
         <Swiper
           watchSlidesProgress={true}

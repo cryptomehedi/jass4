@@ -14,7 +14,7 @@ const ProductAll = () => {
                         {
                             products.map(product =>{
                                return   <Link to={`/products/product/${product.id}`} key={product.id} className="card card-compact w-5/6 md:w-96 bg-base-100 p-5 m-5 shadow-xl">
-                                            <figure><img className='w-52 rounded-xl ' src={product.img} alt={`${product.name} || JASS4 Lubricant`} /></figure>
+                                            <figure><img className='w-52 rounded-xl ' src={product.img} alt={`${product.name} || JASS MAX1 Lubricant`} /></figure>
                                             <div className="card-body ">
                                                 <div className='flex justify-center' ><h2 className="card-title">{product.name}</h2></div>
                                                 <p className='text-2xl' >{product.power}</p>

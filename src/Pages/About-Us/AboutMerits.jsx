@@ -1,4 +1,4 @@
-import img from '../../assets/About-Img/JASS4-Lubricant-bg04-1.jpg'
+import img from '../../assets/About-Img/JASS-MAX1-Lubricant-bg04-1.jpg'
 
 
 const AboutMerits = () => {

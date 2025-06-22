@@ -18,7 +18,7 @@ const AboutCEO = () => {
                 <span className="text-3xl font-bold">Md. Sanwar Hossain</span>
                 <br />
                 <span className=" text-sm ml-2">
-                  Chairman of Jass4 Lubricant
+                  Chairman of JASS MAX1 Lubricant
                 </span>
                 <br />
                 <span className=" text-sm ml-2">

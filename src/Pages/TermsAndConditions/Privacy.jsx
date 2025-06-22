@@ -104,7 +104,7 @@ const Privacy = () => {
           </li>
           <li>
             <div>
-              <strong>Website</strong> refers to JASS4 Brothers Petroleum Ltd.,
+              <strong>Website</strong> refers to JASS MAX1 M/S Sagor Automobile Co.,
               accessible from{" "}
               <a
                 href="https://jass4.com"
@@ -530,7 +530,7 @@ const Privacy = () => {
         </div>
         <ul>
           <li>
-            <div>By email: jass4best@gmail.com</div>
+            <div>By email: jassmax11@gmail.com</div>
           </li>
           <li>
             <div>

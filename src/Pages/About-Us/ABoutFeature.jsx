@@ -1,5 +1,5 @@
-import img1 from "../../assets/About-Img/JASS4-Lubricant-icon-mission.png";
-import img2 from "../../assets/About-Img/JASS4-Lubricant-icon-vision.png";
+import img1 from "../../assets/About-Img/JASS-MAX1-Lubricant-icon-mission.png";
+import img2 from "../../assets/About-Img/JASS-MAX1-Lubricant-icon-vision.png";
 
 const ABoutFeature = () => {
   const features = [
@@ -31,7 +31,7 @@ const ABoutFeature = () => {
                 <div key={feature.id} className="p-4 lg:w-1/2 md:w-full">
                   <div className="flex border-2 rounded-lg md:h-64 text-white border-opacity-50 p-8 sm:flex-row flex-col">
                     <div className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full flex-shrink-0">
-                      <img src={feature.img} alt="JASS4 Lubricant" />
+                      <img src={feature.img} alt="JASS MAX1 Lubricant" />
                     </div>
                     <div className="flex-grow">
                       <h2 className="text-3xl font-thin title-font mb-3">

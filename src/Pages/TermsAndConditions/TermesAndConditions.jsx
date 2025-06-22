@@ -41,8 +41,7 @@ const TermesAndConditions = () => {
               <div>
                 <strong>Company</strong> (referred to as either &quot;the
                 Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot;
-                in this Agreement) refers to JASS4 Brothers Petroleum Ltd.,
-                Holding# 4602, Komaigari, Naogaon Sador, Naogaon-6500.
+                in this Agreement) refers to M/S Sagor Automobile Co.,
               </div>
             </li>
             <li>
@@ -67,7 +66,7 @@ const TermesAndConditions = () => {
             </li>
             <li>
               <div>
-                <strong>Website</strong> refers to JASS4 Lubricants, accessible
+                <strong>Website</strong> refers to JASS MAX1 Lubricants, accessible
                 from{" "}
                 <a
                   href="https://jass4.com"
@@ -290,7 +289,7 @@ const TermesAndConditions = () => {
           </div>
           <ul>
             <li>
-              <div>By email: jass4best@gmail.com</div>
+              <div>By email: jassmax11@gmail.com</div>
             </li>
             <li>
               <div>

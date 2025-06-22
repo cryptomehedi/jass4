@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/jass4-logo.png";
+import logo from "../../assets/JASS-MAX1.png";
 import img from '../../assets/save.png'
 const Footer = () => {
   return (
@@ -35,12 +35,12 @@ const Footer = () => {
       <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
       <aside>
           <div className="w-1/3">
-            <img src={logo} alt="JASS4 Lubricant" srcSet="" />
+            <img src={logo} alt="JASS MAX1 Lubricant" srcSet="" />
           </div>
           <p>
-            JASS4 Brothers Petroleum Ltd. Since 2012
+            M/S. SAGOR AUTOMOBILE CO.
             <br />
-            <img className="w-32 md:w-40" src={img} alt="JASS4 Lubricant" />
+            <img className="w-32 md:w-40" src={img} alt="JASS MAX1 Lubricant" />
           </p>
         </aside> 
         <nav className="md:place-self-center md:justify-self-end">
@@ -55,7 +55,7 @@ const Footer = () => {
       <div className=" text-center py-4 space-y-2 lg:flex lg:justify-between container mx-auto px-4 md:px-0">
         <div>
           &copy; 2023 - {new Date().getFullYear()} | All Rights Reserved by{" "}
-          <span className="font-bold text-lg">JASS4</span>{" "}
+          <span className="font-bold text-lg">JASS MAX1</span>{" "}
         </div>
         <div className="text-stone-400">
           Design & Developed by{" "}

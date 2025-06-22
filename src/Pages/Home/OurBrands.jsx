@@ -3,7 +3,7 @@
 // import "swiper/css/navigation";
 // import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-import brand1 from "./../../assets/jass4-brand.png";
+import brand1 from "./../../assets/JASS-MAX1.png";
 // import brand2 from './../../assets/brand-1.png'
 // import brand3 from './../../assets/brand-2.png'
 
@@ -22,7 +22,7 @@ const OurBrands = () => {
             Our <span className="font-semibold">Brands</span>
           </div>
           <div className="p-11 md:px-60">
-            <img src={brand1} alt="JASS4 Lubricant" />
+            <img src={brand1} alt="JASS MAX1 Lubricant" />
             {/* <Swiper
                         watchSlidesProgress={true}
                         slidesPerView={1}
@@ -65,7 +65,7 @@ const OurBrands = () => {
         </div>
       </div>
       <p className="font-semibold text-xl mt-5">
-        <span className="text-orange-400">JASS4 Lubricant</span> has been in the{" "}
+        <span className="text-orange-400">JASS MAX1 Lubricant</span> has been in the{" "}
         <span className="text-orange-400">Bangladesh Market</span> for a long
         time with <span className="text-orange-400">Great Trust </span>
         and <span className="text-orange-400">Reputation</span>. <br /> We

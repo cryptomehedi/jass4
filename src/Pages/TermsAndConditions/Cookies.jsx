@@ -32,8 +32,7 @@ const Cookies = () => {
           <li>
             <strong>Company</strong> (referred to as either &quot;the
             Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in
-            this Cookies Policy) refers to JASS4 Brothers Petroleum Ltd.,
-            Holding# 4602, Komaigari, Naogaon Sador, Naogaon-6500.
+            this Cookies Policy) refers to JASS MAX1 M/S Sagor Automobile Co.,
           </li>
           <li>
             <strong>Cookies</strong> means small files that are placed on Your
@@ -42,7 +41,7 @@ const Cookies = () => {
             uses.
           </li>
           <li>
-            <strong>Website</strong> refers to JASS4 Lubricant, accessible from{" "}
+            <strong>Website</strong> refers to JASS MAX1 Lubricant, accessible from{" "}
             <a
               href="https://jass4.com"
               rel="external noreferrer nofollow noopener"
@@ -175,7 +174,7 @@ const Cookies = () => {
         </div>
         <ul>
           <li>
-            <div>By email: jass4best@gmail.com</div>
+            <div>By email: jassmax11@gmail.com</div>
           </li>
           <li>
             <div>

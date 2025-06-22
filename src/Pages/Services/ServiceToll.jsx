@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import trollData from '../../Data/toll.json'
-import img from "/services/JASS4-Lubricant-services-toll-blending.jpg"
+import img from "/services/JASS-MAX1-Lubricant-services-toll-blending.jpg"
 
 
 const ServiceToll = () => {
@@ -30,7 +30,7 @@ const ServiceToll = () => {
                    </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img className="object-cover object-center rounded" alt="JASS4 Lubricant" src={img} />
+                    <img className="object-cover object-center rounded" alt="JASS MAX1 Lubricant" src={img} />
                 </div>
             </div>
         </section>

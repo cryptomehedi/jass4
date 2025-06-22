@@ -7,7 +7,7 @@ const ContactDetails = ({ info }) => {
     addressP3,
     persons,
     email,
-    webEmail,
+    // webEmail,
     map,
     Office,
     officeHours,
@@ -31,7 +31,7 @@ const ContactDetails = ({ info }) => {
             <div className="grid md:grid-cols-2">
               <div className="h-full pr-6">
                 <p className="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400">
-                  We JASS4 Lubricants understand the potential risks involved
+                  We JASS MAX1 Lubricants understand the potential risks involved
                   with toll blending and we offer a wide range of services to
                   help simplify the process.
                 </p>
@@ -108,7 +108,7 @@ const ContactDetails = ({ info }) => {
                         <a href={`mailto:${email}`}>Mail: {email}</a>
                       </p>
                       <p>
-                        <a href={`mailto:${webEmail}`}>Mail: {webEmail}</a>
+                        {/* <a href={`mailto:${webEmail}`}>Mail: {webEmail}</a> */}
                       </p>
                     </div>
                   </li>

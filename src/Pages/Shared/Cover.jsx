@@ -1,4 +1,4 @@
-import img from '../../assets/About-Img/JASS4-Lubricant-banner01.png'
+import img from '../../assets/About-Img/JASS-MAX1-Lubricant-banner01.png'
 
 const Cover = ({title}) => {
   return (

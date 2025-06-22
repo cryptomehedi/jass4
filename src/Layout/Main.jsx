@@ -6,7 +6,7 @@ import OfferAds from "../Pages/Shared/OfferAds";
 import { useState } from "react";
 
 const Main = () => {
-  const [ads, setAds] = useState(true)
+  const [ads, setAds] = useState(false)
   return (
     <div>
       <div><Navbar /></div>

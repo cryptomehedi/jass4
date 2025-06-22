@@ -1,6 +1,6 @@
 // import { Link } from "react-router-dom";
 import { useState } from "react";
-import logo from "../../assets/jass4-logo.png";
+import logo from "../../assets/JASS-MAX1.png";
 import CustomLink from "./CustomLink";
 
 
