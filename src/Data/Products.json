@@ -2,7 +2,7 @@
     {
         "id": 1,
         "img" : "/Products/JASS-MAX1-10W-30s.jpg",
-        "name" : "Semi Synthetic Xtrame 3000",
+        "name" : "Semi Synthetic Xtrame 2500",
         "power" : "10W-30", 
         "Weight" : 1,
         "price" : 500,
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "img" : "/Products/JASS-MAX1-10W-30f.jpg",
-        "name" : "Full Synthetic Xtrame 3000",
+        "name" : "Full Synthetic Xtrame 3500",
         "power" : "10W-30", 
         "Weight" : 1,
         "price" : 500,
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "img" : "/Products/JASS-MAX1-10W-40s.jpg",
-        "name" : "Semi Synthetic Xtrame 3000",
+        "name" : "Semi Synthetic Xtrame 2500",
         "power" : "10W-40", 
         "Weight" : 1,
         "price" : 500,
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "img" : "/Products/JASS-MAX1-20W-40.jpg",
-        "name" : "Semi Synthetic Xtrame 3000",
+        "name" : "Semi Synthetic Xtrame 2500",
         "power" : "20W-40", 
         "Weight" : 1,
         "price" : 500,
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "img" : "/Products/JASS-MAX1-20W-40.jpg",
-        "name" : "Full Synthetic Xtrame 3000",
+        "name" : "Full Synthetic Xtrame 3500",
         "power" : "20W-40", 
         "Weight" : 1,
         "price" : 500,
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "img" : "/Products/JASS-MAX1-20W-50s.jpg",
-        "name" : "Semi Synthetic Xtrame 3000",
+        "name" : "Semi Synthetic Xtrame 2500",
         "power" : "20W-50", 
         "Weight" : 1,
         "price" : 500,
@@ -56,7 +56,7 @@
     {
         "id": 7,
         "img" : "/Products/JASS-MAX1-20W-50f.jpg",
-        "name" : "Full Synthetic Xtrame 3000",
+        "name" : "Full Synthetic Xtrame 3500",
         "power" : "20W-50", 
         "Weight" : 1,
         "price" : 500,
