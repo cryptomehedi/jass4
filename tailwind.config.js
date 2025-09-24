@@ -11,7 +11,7 @@ export default {
     extend: {
       backgroundImage:{
         'coverImg': "url('./src/assets/slider01-with-curved.jpg')",
-        'notFound': "url('https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif')"
+        'notFound': "url('https://i.ibb.co/tT0HWvkn/404.gif')"
       }
     },
   },
