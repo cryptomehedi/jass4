@@ -11,6 +11,7 @@ export default {
     extend: {
       backgroundImage:{
         'coverImg': "url('./src/assets/slider01-with-curved.jpg')",
+        'notFound': "url('./404/404.gif')"
       }
     },
   },
