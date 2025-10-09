@@ -1,19 +1,19 @@
 {
   "email": "jassmax11@gmail.com",
-  "persons" : [
-    { 
-      "id" : 1,
-      "name" : "Main Office",
+  "persons": [
+    {
+      "id": 1,
+      "name": "Main Office",
       "phone": "01806838028"
     }
   ],
-  "address": "Road# 5, Kaderiabag Housing,",
-  "addressP2": "Mohammadpur, Dhaka-1207.",
-  "addressP3": "Munsipara, Naogaon Sadar, Naogaon-6500.",
+  "address": "Progoti Soroni,Shahajadpur",
+  "addressP2": "Gulsan, Subastro Nojor vally North Side, Dhaka-1212.",
+  "addressP3": "Gulsan, Subastro Nojor vally North Side, Dhaka-1212.",
   "maps": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2153.080555715686!2d88.92759393199746!3d24.82846153828214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1707395597997!5m2!1sen!2sbd",
   "whatsapp": "https://wa.me/8801806838028",
   "whatsappN": "(+880) 1806-838028",
   "Office": "Saturday to Friday",
   "officeHours": "9 AM - 7 PM",
-  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.7928929765108!2d90.35788627402687!3d23.75476378861134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf78f21dcc8f%3A0xc9c500472def4265!2sMohammadpur!5e0!3m2!1sen!2sbd!4v1736079633597!5m2!1sen!2sbd"
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.8082724716805!2d90.4227402240281!3d23.7898407872635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7a3b84d4da3%3A0xc77461d0af9c8286!2sSuvastu%20Nazar%20Valley%20Shopping%20Mall!5e0!3m2!1sen!2sbd!4v1760003877981!5m2!1sen!2sbd"
 }
