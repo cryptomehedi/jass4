@@ -1,6 +1,157 @@
 [
     {
         "id": 1,
+        "img" : "/Products/1-Liter-Engine-Oil-Full-Synthetic.jpg",
+        "name" : "1 Liter Engine Oil – Full Synthetic",
+        "power" : "20W-50 ,20W-40 ,10W-30 ,10W-40", 
+        "Weight" : 1,
+        "specifications" : [
+            {"id" :1, "point" : "হেভি বাইকের জন্য হাই টেম্পে ভালো পারফরম্যান্স"},
+            {"id" :2, "point" : "মাইলেজ ফ্রেন্ডলি"},
+            {"id" :3, "point" : "কোল্ড স্টার্টে দ্রুত লুব্রিকেশন"},
+            {"id" :4, "point" : "ডেইলি রাইডের জন্য"},
+            {"id" :5, "point" : "স্মুথ ইঞ্জিন সাপোর্ট"},
+            {"id" :6, "point" : "সব আবহাওয়ায় উপযোগী"},
+            {"id" :7, "point" : "হাই RPM-এ ভালো সাপোর্ট"}
+        ]
+    },
+    {
+        "id": 2,
+        "img" : "/Products/1-Liter-Engine-Oil-Semi-Synthetic.jpg",
+        "name" : " 1 Liter Engine Oil – Semi Synthetic",
+        "power" : "20W-50 ,20W-40 ,10W-30 ,10W-40", 
+        "Weight" : 1,
+        "specifications" : [
+            {"id" :1, "point" : "ইঞ্জিনকে স্মুথ ও প্রোটেকশন দেয়"},
+            {"id" :2, "point" : "কোল্ড স্টার্টে দ্রুত লুব্রিকেশন"},
+            {"id" :3, "point" : "মাইলেজ ও পারফরম্যান্স ব্যালান্সড"},
+            {"id" :4, "point" : "দৈনন্দিন রাইড ও লং রাইডের জন্যই উপযোগী"},
+            {"id" :5, "point" : "ইঞ্জিন হিট কমায় ও শব্দ কমাতে সাহায্য করে"},
+            {"id" :6, "point" : "সব ধরনের আবহাওয়ায় স্টেবল থাকে"}
+        ]
+    },
+    {
+        "id": 3,
+        "img" : "/Products/1-Liter-Engine-Oil-Mineral.jpg",
+        "name" : "1 Liter Engine Oil – Mineral",
+        "power" : "20W-50 ,20W-40 ,10W-30 ,10W-40", 
+        "Weight" : 1,
+        "specifications" : [
+            {"id" :1, "point" : "বেসিক ইঞ্জিন প্রোটেকশন দেয় "},
+            {"id" :2, "point" : "ডেইলি রাইডের জন্য উপযোগী "},
+            {"id" :3, "point" : "ইঞ্জিন ঘর্ষণ কমাতে সাহায্য করে "},
+            {"id" :4, "point" : "সহজে লুব্রিকেশন হয় "},
+            {"id" :5, "point" : "স্বাভাবিক আবহাওয়ায় ভালো পারফরম্যান্স"},
+            {"id" :6, "point" : "বাজেট ফ্রেন্ডলি এবং রিলায়েবল অপশন"}
+        ]
+    },
+    {
+        "id": 4,
+        "img" : "/Products/1-Liter-Engine-Oil-Mineral-SAE50.jpg",
+        "name" : "1 Liter Engine Oil – Mineral",
+        "power" : "SAE-50", 
+        "Weight" : 1,
+        "specifications" : [
+            {"id" :1, "point" : "হাই টেম্পারেচারে শক্তিশালী ইঞ্জিন সুরক্ষা "},
+            {"id" :2, "point" : "ভারী ও পুরনো ইঞ্জিনে স্মুথ লুব্রিকেশন"},
+            {"id" :3, "point" : "ঘর্ষণ ও ইঞ্জিন ক্ষয় কমায় "},
+            {"id" :4, "point" : "দৈনন্দিন ব্যবহার ও লং রান এ উপযোগী "},
+            {"id" :5, "point" : "নির্ভরযোগ্য ও বাজেট ফ্রেন্ডলি মিনারেল ফর্মুলা"}
+        ]
+    },
+    {
+        "id": 5,
+        "img" : "/Products/1-Liter-Gear-Oil–Mineral-EP-90-EP-140.jpg",
+        "name" : " 1 Liter Gear Oil – Mineral",
+        "power" : "EP-90, EP-140, EP-80W-90, EP-85W-140", 
+        "Weight" : 1,
+        "specifications" : [
+            {"id" :1, "point" : "গিয়ার ও ডিফারেনশিয়ালে শক্তিশালী সুরক্ষা প্রদান "},
+            {"id" :2, "point" : "উচ্চ চাপ ও ভারী লোডে স্মুথ পারফরম্যান্স "},
+            {"id" :3, "point" : "ঘর্ষ্ণ কমিয়ে গিয়ারের আয়ু বৃদ্ধি করে "},
+            {"id" :4, "point" : "তাপমাত্রা পরিবর্তনে স্থিতিশীল ভিসকসিটি বজায় রাখে "},
+            {"id" :5, "point" : "নয়েজ ও ভাইব্রেশন কমাতে সহায়ক"},
+            {"id" :6, "point" : "ট্রাক, পিকআপ ও মোটরবাইকের গিয়ার সিস্টেমে উপযোগী "}
+        ]
+    },
+    {
+        "id": 6,
+        "img" : "/Products/1-Liter-Automative-Transmission-fluid(ATF)-Semi-synthetic.jpg",
+        "name" : "1 Liter Automative Transmission Fluid(ATF) – Semi Synthetic",
+        "power" : "ATF-DOX3, ATF-T-TYPE4", 
+        "Weight" : 1,
+        "specifications" : [
+            {"id" :1, "point" : "অটোমেটিক গিয়ার শিফটকে আরও স্মুথ করে "},
+            {"id" :2, "point" : "গিয়ারবক্সে ঘর্ষন ও তাপ কমায় "},
+            {"id" :3, "point" : "ট্রান্সমিশনের লাইফ দীর্ঘায়িত করে "},
+            {"id" :4, "point" : "ঠান্ডা ও গরম এই ২ অবস্থায় স্থিতিশীল পারফরম্যান্স ধরে রাখে "},
+            {"id" :5, "point" : "জার ও দিপোজিট জমা কমায় "},
+            {"id" :6, "point" : "আধুনিক অটোমেটিক গাড়ির জন্য উপযোগী"},
+            {"id" :7, "point" : ""}
+        ]
+    },
+    {
+        "id": 7,
+        "img" : "/Products/2-Liter-Engine-Oil–SemiSynthetic.jpg",
+        "name" : "2 Liter Engine Oil – Semi Synthetic",
+        "power" : "20W-50 ,20W-40 ,10W-30 ,10W-40", 
+        "Weight" : 2,
+        "specifications" : [
+            {"id" :1, "point" : "ইঞ্জিনকে স্মুথ ও ব্যালান্সড প্রোটেকশন দেয়"},
+            {"id" :2, "point" : "কোল্ড স্টার্টে দ্রুত লুব্রিকেশন"},
+            {"id" :3, "point" : "মাইলেজ ও পারফরম্যান্স দুটোই বজাই রাখে"},
+            {"id" :4, "point" : "হাই টেম্পারেচারে স্থিতিশীল সাপোর্ট "},
+            {"id" :5, "point" : "দৈনন্দিন রাইড ও লং রাইডের জন্যই উপযোগী"},
+            {"id" :6, "point" : "ঘর্ষণ ও ইঞ্জিন শব্দ কমাতে সহায়ক"}
+        ]
+    },
+    {
+        "id": 8,
+        "img" : "/Products/3-Liter-Engine-Oil-Semi-Synthetic.jpg",
+        "name" : "3 Liter Engine Oil – Semi Synthetic",
+        "power" : "20W-50 ,20W-40 ,10W-30 ,10W-40", 
+        "Weight" : 3,
+        "specifications" : [
+            {"id" :1, "point" : "ইঞ্জিনকে স্মুথ ও ব্যালান্সড প্রোটেকশন দেয়"},
+            {"id" :2, "point" : "কোল্ড স্টার্টে দ্রুত লুব্রিকেশন"},
+            {"id" :3, "point" : "মাইলেজ ও পারফরম্যান্স দুটোই বজাই রাখে"},
+            {"id" :4, "point" : "হাই টেম্পারেচারে স্থিতিশীল সাপোর্ট "},
+            {"id" :5, "point" : "দৈনন্দিন রাইড ও লং রাইডের জন্যই উপযোগী"},
+            {"id" :6, "point" : "ঘর্ষণ ও ইঞ্জিন শব্দ কমাতে সহায়ক"}
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "id": 101,
         "img" : "/Products/JASS-MAX1-10W-30s.jpg",
         "name" : "Semi Synthetic Xtrame 2500",
         "power" : "10W-30", 
@@ -9,7 +160,7 @@
         "description" : "JASS MAX1 Semi Synthetic Xtrame 3000 10W-30 has been formulated with special active cleansing technology. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up. In addition to offering excellent engine protection for all driving conditions, JASS MAX1 Semi Synthetic Xtrame 3000 10W-30 cleans and protects to help deliver extra responsiveness. JASS MAX1 Semi Synthetic Xtrame 3000 10W-30 has been designed to provide superior soot dispersancy, exceptional cleanliness and reduced oil consumption through the use of a unique combination of selected additives and selected base oils GROUP II & lll, and is suitable for use in normally aspirated and turbocharged diesel engines."
     },
     {
-        "id": 2,
+        "id": 102,
         "img" : "/Products/JASS-MAX1-10W-30f.jpg",
         "name" : "Full Synthetic Xtrame 3500",
         "power" : "10W-30", 
@@ -18,7 +169,7 @@
         "description" : "JASS MAX1 Full Synthetic Xtrame 3000 10W-30 has been formulated with special active cleansing technology. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up. In addition to offering excellent engine protection for all driving conditions, JASS MAX1 Full Synthetic Xtrame 3000 10W-30 cleans and protects to help deliver extra responsiveness. JASS MAX1 Full Synthetic Xtrame 3000 10W-30 has been designed to provide superior soot dispersancy, exceptional cleanliness and reduced oil consumption through the use of a unique combination of selected additives and selected base oils GROUP II & lll, and is suitable for use in normally aspirated and turbocharged diesel engines."
     },
     {
-        "id": 3,
+        "id": 103,
         "img" : "/Products/JASS-MAX1-10W-40s.jpg",
         "name" : "Semi Synthetic Xtrame 2500",
         "power" : "10W-40", 
@@ -27,7 +178,7 @@
         "description" : "JASS MAX1 Semi Synthetic Xtrame 3000 10W-40 has been formulated with special active cleansing technology. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up. In addition to offering excellent engine protection for all driving conditions, JASS MAX1 Semi Synthetic Xtrame 3000 10W-40 cleans and protects to help deliver extra responsiveness. JASS MAX1 Semi Synthetic Xtrame 3000 10W-40 has been designed to provide superior soot dispersancy, exceptional cleanliness and reduced oil consumption through the use of a unique combination of selected additives and selected base oils GROUP II & lll, and is suitable for use in normally aspirated and turbocharged diesel engines."
     },
     {
-        "id": 4,
+        "id": 104,
         "img" : "/Products/JASS-MAX1-20W-40.jpg",
         "name" : "Semi Synthetic Xtrame 2500",
         "power" : "20W-40", 
@@ -36,7 +187,7 @@
         "description" : "JASS MAX1 Semi Synthetic Xtrame 3000 20W-40 CF has been formulated with special active cleansing technology, dispersant, anti-oxidant, anti-rust, anti-wear and anti-foam properties. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up and reduces engine noise."
     },
     {
-        "id": 5,
+        "id": 105,
         "img" : "/Products/JASS-MAX1-20W-40.jpg",
         "name" : "Full Synthetic Xtrame 3500",
         "power" : "20W-40", 
@@ -45,7 +196,7 @@
         "description" : "JASS MAX1 Full Synthetic Xtrame 3000 20W-40 CF has been formulated with special active cleansing technology, dispersant, anti-oxidant, anti-rust, anti-wear and anti-foam properties. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up and reduces engine noise."
     },
     {
-        "id": 6,
+        "id": 106,
         "img" : "/Products/JASS-MAX1-20W-50s.jpg",
         "name" : "Semi Synthetic Xtrame 2500",
         "power" : "20W-50", 
@@ -54,7 +205,7 @@
         "description" : "JASS MAX1 Semi Synthetic Xtrame 3000 20W-50 has been formulated with special cleansing technology, dispersant, anti-oxidant, anti-rust, anti-wear and anti-foam properties. It works harder to protect than conventional motor oils by continuously preventing dirt and sludge build-up and reduces engine noise."
     },
     {
-        "id": 7,
+        "id": 107,
         "img" : "/Products/JASS-MAX1-20W-50f.jpg",
         "name" : "Full Synthetic Xtrame 3500",
         "power" : "20W-50", 

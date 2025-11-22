@@ -5,7 +5,7 @@ import PageTitle from "../Shared/PageTitle";
 const ProductDetails = () => {
   const { id } = useParams();
   const product = productsData.find((product) => product.id === +id);
-  const { name, img, description, Weight, power } = product;
+  const { name, img, description, Weight, power,specifications } = product;
   return (
     <div>
       <PageTitle text={name}/>
@@ -34,16 +34,16 @@ const ProductDetails = () => {
               <div> 
                 {typeof(Weight) === "number" ? <div className='text-lg' > {Weight}L</div> : <div className='text-lg' >{product.Weight}</div>}
               </div>
-              <h2 className="text-base title-font uppercase mt-6 tracking-widest">
-                Product Description
-              </h2>
+              {description ? <h2 className="text-base title-font uppercase mt-6 tracking-widest"> Product Description</h2> : <h2 className="text-base title-font uppercase mt-6 tracking-widest"> Product Specifications</h2>}
               {description ? <p className="text-xs leading-relaxed">{description}</p> : <p className="text-sm leading-relaxed">
-                  Fam locavore kickstarter distillery. Mixtape chillwave tumeric
-                  sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo
-                  juiceramps cornhole raw denim forage brooklyn. Everyday carry
-                  +1 seitan poutine tumeric. Gastropub blue bottle austin
-                  listicle pour-over, neutra jean shorts keytar banjo tattooed
-                  umami cardigan.
+                  {
+                    specifications.map(points=>{
+                      return <div key={points.id} className="flex items-center my-2 text-sm font-light leading-relaxed">
+                        {/* <div className="w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-b-8 border-b-gray-700"></div> */}
+                        <div className="w-0 h-0 border-t-8 border-b-8 border-l-8 border-transparent border-l-orange-500"></div>
+                        <p className="ml-2">{points.point}</p>
+                      </div>
+                    })}
                 </p>}
             </div>
           </div>
