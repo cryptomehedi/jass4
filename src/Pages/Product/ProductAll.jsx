@@ -28,9 +28,9 @@ const ProductAll = () => {
                             })
                         }
                     </div>
-
-
                 </div>
+
+                
             </section>
         </div>
     );
